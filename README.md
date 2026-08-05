@@ -1,5 +1,7 @@
 # NMS-Resource-Codex
 
+“Explore. Refine. Discover.”
+（探索し、精製し、発見する。）
 
 概要
 

@@ -105,8 +105,8 @@ function showResult(item){
 
 
     html += showInfo(item);
-    
-html += showRecipes(item);
+
+   html += showRecipes(item); 
 
     html += showUses(item);
 

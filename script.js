@@ -259,7 +259,7 @@ const materialName = materialItem
     : material.id;
 
 html += `
-    ${createResourceLink(materialName)}
+    ${createResourceLink(material.id)}
     × ${material.amount}<br>
 `;
 
@@ -282,7 +282,7 @@ const outputName = outputItem
     : output.id;
 
 html += `
-    ${createResourceLink(outputName)}
+    ${createResourceLink(output.id)}
     × ${output.amount}
 `;
         });
@@ -375,18 +375,43 @@ html += `
 // 資源リンク作成
 // --------------------
 
-function createResourceLink(name){
+function createResourceLink(id){
+
+    const item = items.find(data => data.id === id);
+
+    const name = item
+        ? item.name
+        : id;
 
     return `
-
-        <span class="resourceLink"
-
-            data-name="${name}">
-
+        <span
+            class="resourceLink"
+            data-id="${id}">
             ${name}
-
         </span>
-
     `;
 
 }
+resultArea.addEventListener("click", function(event){
+
+    if(!event.target.classList.contains("resourceLink")){
+
+        return;
+
+    }
+
+    const id = event.target.dataset.id;
+
+    const item = items.find(data => data.id === id);
+
+    if(!item){
+
+        return;
+
+    }
+
+    searchInput.value = item.name;
+
+    searchResource();
+
+});

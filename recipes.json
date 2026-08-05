@@ -1,1 +1,93 @@
+[
+    {
+        "type": "refine",
 
+        "machine": "精製機",
+
+        "input": [
+            {
+                "id": "oxygen",
+                "amount": 1
+            }
+        ],
+
+        "output": [
+            {
+                "id": "carbon",
+                "amount": 1
+            }
+        ]
+    },
+
+    {
+        "type": "refine",
+
+        "machine": "精製機",
+
+        "input": [
+            {
+                "id": "carbon",
+                "amount": 2
+            },
+            {
+                "id": "oxygen",
+                "amount": 2
+            }
+        ],
+
+        "output": [
+            {
+                "id": "condensed_carbon",
+                "amount": 5
+            }
+        ]
+    },
+
+    {
+        "type": "refine",
+
+        "machine": "精製機",
+
+        "input": [
+            {
+                "id": "condensed_carbon",
+                "amount": 1
+            },
+            {
+                "id": "oxygen",
+                "amount": 2
+            }
+        ],
+
+        "output": [
+            {
+                "id": "condensed_carbon",
+                "amount": 6
+            }
+        ]
+    },
+
+    {
+        "type": "refine",
+
+        "machine": "精製機",
+
+        "input": [
+            {
+                "id": "ionised_cobalt",
+                "amount": 1
+            },
+            {
+                "id": "oxygen",
+                "amount": 2
+            }
+        ],
+
+        "output": [
+            {
+                "id": "ionised_cobalt",
+                "amount": 6
+            }
+        ]
+    }
+]

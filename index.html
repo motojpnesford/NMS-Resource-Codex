@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NMS Resource Codex</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="app">
+
+        <!-- ==========================
+             タイトル
+        =========================== -->
+
+        <header id="header">
+
+            <h1 id="title">
+                NMS Resource Codex
+            </h1>
+
+            <p id="subTitle">
+                No Man's Sky Resource Database
+            </p>
+
+        </header>
+
+        <!-- ==========================
+             検索エリア
+        =========================== -->
+
+        <section id="searchArea">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="資源名を入力">
+
+            <button id="searchButton">
+
+                SEARCH
+
+            </button>
+
+        </section>
+
+        <!-- ==========================
+             検索候補
+             （予測変換用）
+        =========================== -->
+
+        <div id="suggestArea"></div>
+
+        <!-- ==========================
+             検索結果
+        =========================== -->
+
+        <main id="resultArea">
+
+            Resource Search Ready.
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

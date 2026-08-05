@@ -252,11 +252,6 @@ function showRecipes(item){
     result.forEach(recipe =>{
 
         recipe.input.forEach(material =>{
-const materialItem = items.find(i => i.id === material.id);
-
-const materialName = materialItem
-    ? materialItem.name
-    : material.id;
 
 html += `
     ${createResourceLink(material.id)}
@@ -275,14 +270,8 @@ html += `
 
         recipe.output.forEach(output=>{
 
-          const outputItem = items.find(i => i.id === output.id);
-
-const outputName = outputItem
-    ? outputItem.name
-    : output.id;
-
 html += `
-    ${createResourceLink(output.id)}
+    ${createResourceLink(output.id)
     × ${output.amount}
 `;
         });
@@ -333,7 +322,7 @@ const materialName = materialItem
     : material.id;
 
 html += `
-    ${createResourceLink(materialName)}
+    ${createResourceLink(material.id)}
     × ${material.amount}<br>
 `;
         });

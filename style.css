@@ -1,0 +1,204 @@
+/* =======================================
+   NMS Resource Codex
+   Ver.2.0
+   style.css
+======================================= */
+
+/* ---------- 全体 ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#111;
+
+    color:#ffffff;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+/* ---------- メイン ---------- */
+
+#app{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:40px auto;
+
+}
+
+
+/* ---------- タイトル ---------- */
+
+#header{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+#title{
+
+    color:#ff4040;
+
+    font-size:42px;
+
+    letter-spacing:2px;
+
+}
+
+#subTitle{
+
+    color:#999;
+
+    margin-top:10px;
+
+    font-size:14px;
+
+}
+
+
+/* ---------- 検索 ---------- */
+
+#searchArea{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:20px;
+
+}
+
+#searchInput{
+
+    flex:1;
+
+    padding:12px;
+
+    font-size:18px;
+
+    background:#222;
+
+    color:white;
+
+    border:1px solid #444;
+
+    outline:none;
+
+}
+
+#searchInput:focus{
+
+    border-color:#ff4040;
+
+}
+
+
+#searchButton{
+
+    width:150px;
+
+    background:#b00000;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.2s;
+
+}
+
+#searchButton:hover{
+
+    background:#ff4040;
+
+}
+
+
+/* ---------- 予測変換 ---------- */
+
+#suggestArea{
+
+    margin-bottom:20px;
+
+}
+
+
+/* ---------- 検索結果 ---------- */
+
+#resultArea{
+
+    background:#1a1a1a;
+
+    border:1px solid #333;
+
+    padding:20px;
+
+    min-height:250px;
+
+}
+
+
+/* ---------- 見出し ---------- */
+
+h2{
+
+    color:#ff5050;
+
+    margin-bottom:20px;
+
+}
+
+h3{
+
+    color:#ff7070;
+
+    margin:20px 0 10px;
+
+}
+
+
+/* ---------- 区切り ---------- */
+
+hr{
+
+    border:none;
+
+    border-top:1px solid #333;
+
+    margin:20px 0;
+
+}
+
+
+/* ---------- リンク ---------- */
+
+.resourceLink{
+
+    color:#ff6060;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.resourceLink:hover{
+
+    color:white;
+
+}

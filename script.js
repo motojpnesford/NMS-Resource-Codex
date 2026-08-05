@@ -221,3 +221,67 @@ function showInfo(item){
     return html;
 
 }
+// --------------------
+// 作り方
+// --------------------
+
+function showRecipes(item){
+
+    let html = "";
+
+    const result = recipes.filter(recipe =>
+
+        recipe.output.some(output => output.id === item.id)
+
+    );
+
+    if(result.length === 0){
+
+        return "";
+
+    }
+
+    html += `
+        <hr>
+        <h3>作り方</h3>
+    `;
+
+    result.forEach(recipe =>{
+
+        recipe.input.forEach(material =>{
+
+            const materialItem = items.find(i => i.id === material.id);
+
+            html += `
+                ${createResourceLink(materialItem.name)}
+                × ${material.amount}<br>
+            `;
+
+        });
+
+        html += `
+            <br>
+            ↓
+            <br>
+            <small>${recipe.machine}</small>
+            <br><br>
+        `;
+
+        recipe.output.forEach(output=>{
+
+            const outputItem = items.find(i => i.id === output.id);
+
+            html += `
+                ${createResourceLink(outputItem.name)}
+                × ${output.amount}
+            `;
+
+        });
+
+        html += "<br><br>";
+
+    });
+
+    return html;
+
+}

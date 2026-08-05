@@ -1,1 +1,22 @@
-
+[
+    {
+        "id": "resource",
+        "name": "資源"
+    },
+    {
+        "id": "plant",
+        "name": "植物"
+    },
+    {
+        "id": "craft_material",
+        "name": "クラフト素材"
+    },
+    {
+        "id": "trade_item",
+        "name": "交易品"
+    },
+    {
+        "id": "consumable",
+        "name": "消耗品"
+    }
+]

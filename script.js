@@ -82,9 +82,7 @@ function showResult(item){
 
     const category = categories.find(data => data.id === item.category);
 
-
     let categoryName = item.category;
-
 
     if(category){
 
@@ -93,7 +91,9 @@ function showResult(item){
     }
 
 
-    resultArea.innerHTML = `
+    let html = "";
+
+    html += `
 
         <h2>${item.name}</h2>
 
@@ -102,5 +102,122 @@ function showResult(item){
         <p>Category : ${categoryName}</p>
 
     `;
+
+
+    html += showInfo(item);
+
+
+    resultArea.innerHTML = html;
+
+}
+// --------------------
+// info表示
+// --------------------
+
+function showInfo(item){
+
+    const data = info.find(data => data.id === item.id);
+
+
+    if(!data){
+
+        return "";
+
+    }
+
+
+    let html = "";
+
+
+    // guide
+
+    if(data.guide && data.guide.length > 0){
+
+        html += `
+
+            <hr>
+
+            <h3>おすすめ手順</h3>
+
+        `;
+
+
+        data.guide.forEach(step => {
+
+            html += `
+
+                <p>
+
+                <strong>
+                ${step.step} ${step.title}
+                </strong>
+                <br>
+
+                ${step.text}
+
+                </p>
+
+            `;
+
+        });
+
+    }
+
+
+
+    // collect
+
+    if(data.collect && data.collect.length > 0){
+
+        html += `
+
+            <hr>
+
+            <h3>採取</h3>
+
+        `;
+
+
+        data.collect.forEach(text => {
+
+            html += `
+
+                <p>${text}</p>
+
+            `;
+
+        });
+
+    }
+
+
+
+    // note
+
+    if(data.note && data.note.length > 0){
+
+        html += `
+
+            <hr>
+
+            <h3>補足</h3>
+
+        `;
+
+
+        data.note.forEach(text => {
+
+            html += `
+
+                <p>${text}</p>
+
+            `;
+
+        });
+
+    }
+
+
+    return html;
 
 }

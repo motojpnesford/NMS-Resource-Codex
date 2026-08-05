@@ -80,13 +80,26 @@ function searchResource(){
 }
 function showResult(item){
 
+    const category = categories.find(data => data.id === item.category);
+
+
+    let categoryName = item.category;
+
+
+    if(category){
+
+        categoryName = category.name;
+
+    }
+
+
     resultArea.innerHTML = `
 
         <h2>${item.name}</h2>
 
         <p>ID : ${item.id}</p>
 
-        <p>Category : ${item.category}</p>
+        <p>Category : ${categoryName}</p>
 
     `;
 

@@ -357,3 +357,23 @@ function showUses(item){
     return html;
 
 }
+
+// --------------------
+// 資源リンク作成
+// --------------------
+
+function createResourceLink(name){
+
+    return `
+
+        <span class="resourceLink"
+
+            data-name="${name}">
+
+            ${name}
+
+        </span>
+
+    `;
+
+}

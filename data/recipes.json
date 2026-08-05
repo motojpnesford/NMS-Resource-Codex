@@ -1,21 +1,5 @@
 [
     {
-    "type": "refine",
-    "machine": "テスト精製機",
-    "input": [
-        {
-            "id": "oxygen",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 2
-        }
-    ]
-},
-    {
         "type": "refine",
 
         "machine": "精製機",

@@ -108,6 +108,8 @@ function showResult(item){
     
 html += showRecipes(item);
 
+    html += showUses(item);
+
     resultArea.innerHTML = html;
 
 }
@@ -267,6 +269,75 @@ function showRecipes(item){
             <small>${recipe.machine}</small>
             <br><br>
         `;
+
+        recipe.output.forEach(output=>{
+
+            const outputItem = items.find(i => i.id === output.id);
+
+            html += `
+                ${createResourceLink(outputItem.name)}
+                × ${output.amount}
+            `;
+
+        });
+
+        html += "<br><br>";
+
+    });
+
+    return html;
+
+}
+
+// --------------------
+// 使い道
+// --------------------
+
+function showUses(item){
+
+    let html = "";
+
+    const result = recipes.filter(recipe =>
+
+        recipe.input.some(input => input.id === item.id)
+
+    );
+
+    if(result.length === 0){
+
+        return "";
+
+    }
+
+    html += `
+        <hr>
+        <h3>使い道</h3>
+    `;
+
+    result.forEach(recipe =>{
+
+        // 材料
+
+        recipe.input.forEach(material=>{
+
+            const materialItem = items.find(i => i.id === material.id);
+
+            html += `
+                ${createResourceLink(materialItem.name)}
+                × ${material.amount}<br>
+            `;
+
+        });
+
+        html += `
+            <br>
+            ↓
+            <br>
+            <small>${recipe.machine}</small>
+            <br><br>
+        `;
+
+        // 完成品
 
         recipe.output.forEach(output=>{
 

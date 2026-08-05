@@ -252,13 +252,16 @@ function showRecipes(item){
     result.forEach(recipe =>{
 
         recipe.input.forEach(material =>{
+const materialItem = items.find(i => i.id === material.id);
 
-            const materialItem = items.find(i => i.id === material.id);
+const materialName = materialItem
+    ? materialItem.name
+    : material.id;
 
-            html += `
-                ${createResourceLink(materialItem.name)}
-                × ${material.amount}<br>
-            `;
+html += `
+    ${createResourceLink(materialName)}
+    × ${material.amount}<br>
+`;
 
         });
 
@@ -272,13 +275,16 @@ function showRecipes(item){
 
         recipe.output.forEach(output=>{
 
-            const outputItem = items.find(i => i.id === output.id);
+          const outputItem = items.find(i => i.id === output.id);
 
-            html += `
-                ${createResourceLink(outputItem.name)}
-                × ${output.amount}
-            `;
+const outputName = outputItem
+    ? outputItem.name
+    : output.id;
 
+html += `
+    ${createResourceLink(outputName)}
+    × ${output.amount}
+`;
         });
 
         html += "<br><br>";
@@ -320,13 +326,16 @@ function showUses(item){
 
         recipe.input.forEach(material=>{
 
-            const materialItem = items.find(i => i.id === material.id);
+           const materialItem = items.find(i => i.id === material.id);
 
-            html += `
-                ${createResourceLink(materialItem.name)}
-                × ${material.amount}<br>
-            `;
+const materialName = materialItem
+    ? materialItem.name
+    : material.id;
 
+html += `
+    ${createResourceLink(materialName)}
+    × ${material.amount}<br>
+`;
         });
 
         html += `
@@ -339,16 +348,20 @@ function showUses(item){
 
         // 完成品
 
-        recipe.output.forEach(output=>{
+      recipe.output.forEach(output => {
 
-            const outputItem = items.find(i => i.id === output.id);
+    const outputItem = items.find(i => i.id === output.id);
 
-            html += `
-                ${createResourceLink(outputItem.name)}
-                × ${output.amount}
-            `;
+    const outputName = outputItem
+        ? outputItem.name
+        : output.id;
 
-        });
+    html += `
+        ${createResourceLink(outputName)}
+        × ${output.amount}
+    `;
+
+});
 
         html += "<br><br>";
 

@@ -1,38 +1,69 @@
 /* =======================================
    NMS Resource Codex
-   Ver.2.0
    style.css
+   Ver.1.0
+======================================= */
+
+/* =======================================
+   Theme
 ======================================= */
 
 :root{
 
-    --main-red:#ff4040;
-    --background:#111;
+    --background:#111111;
+
     --panel:#1a1a1a;
+
+    --panel-border:#333333;
+
     --text:#ffffff;
 
+    --sub-text:#999999;
+
+    --main-red:#ff4040;
+
+    --main-red-hover:#ff6060;
+
+    --radius:8px;
+
+    --space:20px;
+
 }
 
-/* ---------- 全体 ---------- */
+
+/* =======================================
+   Reset
+======================================= */
 
 *{
+
     margin:0;
+
     padding:0;
+
     box-sizing:border-box;
+
 }
+
+
+/* =======================================
+   Body
+======================================= */
 
 body{
 
-    background:#111;
+    background:var(--background);
 
-    color:#ffffff;
+    color:var(--text);
 
     font-family:Arial, Helvetica, sans-serif;
 
 }
 
 
-/* ---------- メイン ---------- */
+/* =======================================
+   App
+======================================= */
 
 #app{
 
@@ -45,7 +76,9 @@ body{
 }
 
 
-/* ---------- タイトル ---------- */
+/* =======================================
+   Header
+======================================= */
 
 #header{
 
@@ -57,7 +90,7 @@ body{
 
 #title{
 
-    color:#ff4040;
+    color:var(--main-red);
 
     font-size:42px;
 
@@ -67,7 +100,7 @@ body{
 
 #subTitle{
 
-    color:#999;
+    color:var(--sub-text);
 
     margin-top:10px;
 
@@ -76,7 +109,9 @@ body{
 }
 
 
-/* ---------- 検索 ---------- */
+/* =======================================
+   Search
+======================================= */
 
 #searchArea{
 
@@ -84,9 +119,10 @@ body{
 
     gap:10px;
 
-    margin-bottom:20px;
+    margin-bottom:var(--space);
 
 }
+
 
 #searchInput{
 
@@ -96,19 +132,22 @@ body{
 
     font-size:18px;
 
-    background:#222;
+    background:#222222;
 
-    color:white;
+    color:var(--text);
 
-    border:1px solid #444;
+    border:1px solid #444444;
+
+    border-radius:var(--radius);
 
     outline:none;
 
 }
 
+
 #searchInput:focus{
 
-    border-color:#ff4040;
+    border-color:var(--main-red);
 
 }
 
@@ -117,97 +156,131 @@ body{
 
     width:150px;
 
-    background:#b00000;
-
-    color:white;
-
     border:none;
+
+    border-radius:var(--radius);
+
+    background:var(--main-red);
+
+    color:var(--text);
 
     cursor:pointer;
 
-    font-size:16px;
-
     transition:.2s;
 
+    font-size:16px;
+
 }
+
 
 #searchButton:hover{
 
-    background:#ff4040;
+    background:var(--main-red-hover);
 
 }
 
 
-/* ---------- 予測変換 ---------- */
+/* =======================================
+   Suggest
+======================================= */
 
 #suggestArea{
 
-    margin-bottom:20px;
+    margin-bottom:var(--space);
 
 }
 
 
-/* ---------- 検索結果 ---------- */
+/* =======================================
+   Result
+======================================= */
 
 #resultArea{
 
-    background:#1a1a1a;
+    background:var(--panel);
 
-    border:1px solid #333;
+    border:1px solid var(--panel-border);
 
-    padding:20px;
+    border-radius:var(--radius);
+
+    padding:var(--space);
 
     min-height:250px;
 
 }
 
 
-/* ---------- 見出し ---------- */
+/* =======================================
+   Heading
+======================================= */
 
 h2{
 
-    color:#ff5050;
+    color:var(--main-red);
 
-    margin-bottom:20px;
+    margin-bottom:var(--space);
 
 }
+
 
 h3{
 
-    color:#ff7070;
+    color:var(--main-red-hover);
 
-    margin:20px 0 10px;
+    margin:var(--space) 0 10px;
 
 }
 
 
-/* ---------- 区切り ---------- */
+/* =======================================
+   HR
+======================================= */
 
 hr{
 
     border:none;
 
-    border-top:1px solid #333;
+    border-top:1px solid var(--panel-border);
 
-    margin:20px 0;
+    margin:var(--space) 0;
 
 }
 
 
-/* ---------- リンク ---------- */
+/* =======================================
+   Paragraph
+======================================= */
+
+p{
+
+    margin-bottom:10px;
+
+    line-height:1.6;
+
+}
+
+
+/* =======================================
+   Resource Link
+======================================= */
 
 .resourceLink{
 
-    color:#ff6060;
+    color:var(--main-red);
 
     cursor:pointer;
 
     transition:.2s;
 
+    font-weight:bold;
+
 }
+
 
 .resourceLink:hover{
 
-    color:white;
+    color:#ffffff;
+
+    text-decoration:underline;
 
 }

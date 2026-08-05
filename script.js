@@ -105,7 +105,8 @@ function showResult(item){
 
 
     html += showInfo(item);
-
+    
+html += showRecipes(item);
 
     resultArea.innerHTML = html;
 

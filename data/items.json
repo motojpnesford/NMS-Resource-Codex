@@ -1,8 +1,7 @@
 [
     {
-        "id": "oxygen",
-        "name": "酸素",
-        "category": "resource",
-        "icon": "oxygen.png"
-    }
+    "id": "oxygen",
+    "name": "酸素",
+    "category": "resource"
+}
 ]

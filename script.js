@@ -339,11 +339,6 @@ html += `
 
       recipe.output.forEach(output => {
 
-    const outputItem = items.find(i => i.id === output.id);
-
-    const outputName = outputItem
-        ? outputItem.name
-        : output.id;
 
     html += `
         ${createResourceLink(output.id)}

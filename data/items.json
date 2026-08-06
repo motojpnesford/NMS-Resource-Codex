@@ -1,7 +1,98 @@
+
 [
     {
-    "id": "oxygen",
-    "name": "酸素",
-    "category": "resource"
-}
+        "id": "oxygen",
+        "name": "酸素",
+        "category": "resource"
+    },
+    {
+        "id": "carbon",
+        "name": "炭素",
+        "category": "resource"
+    },
+    {
+        "id": "condensed_carbon",
+        "name": "濃縮炭素",
+        "category": "resource"
+    },
+    {
+        "id": "salt",
+        "name": "塩",
+        "category": "resource"
+    },
+    {
+        "id": "chlorine",
+        "name": "塩素",
+        "category": "resource"
+    },
+    {
+        "id": "ionised_cobalt",
+        "name": "イオン化コバルト",
+        "category": "resource"
+    },
+    {
+        "id": "dioxite",
+        "name": "二酸化物",
+        "category": "resource"
+    },
+    {
+        "id": "frost_crystal",
+        "name": "フロストクリスタル",
+        "category": "plant"
+    },
+    {
+        "id": "phosphorus",
+        "name": "リン",
+        "category": "resource"
+    },
+    {
+        "id": "solanium",
+        "name": "ソラニウム",
+        "category": "plant"
+    },
+    {
+        "id": "uranium",
+        "name": "ウラン",
+        "category": "resource"
+    },
+    {
+        "id": "gamma_root",
+        "name": "ガンマルート",
+        "category": "plant"
+    },
+    {
+        "id": "pyrite",
+        "name": "パイライト",
+        "category": "resource"
+    },
+    {
+        "id": "cactus_flesh",
+        "name": "サボテン果肉",
+        "category": "plant"
+    },
+    {
+        "id": "ammonia",
+        "name": "アンモニア",
+        "category": "resource"
+    },
+    {
+        "id": "fungal_mould",
+        "name": "菌類カビ",
+        "category": "plant"
+    },
+    {
+        "id": "paraffinium",
+        "name": "パラフィニウム",
+        "category": "resource"
+    },
+    {
+        "id": "star_bulb",
+        "name": "スターバルブ",
+        "category": "plant"
+    },
+    {
+        "id": "faecium",
+        "name": "フェシウム",
+        "category": "resource"
+    }
 ]

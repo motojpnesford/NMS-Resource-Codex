@@ -32,7 +32,7 @@ Promise.all([
     recipes = recipesData;
     info = infoData;
     categories = categoriesData;
-
+  console.log("recipes件数 =", recipes.length);
     console.log("データベース読込完了");
 
 })

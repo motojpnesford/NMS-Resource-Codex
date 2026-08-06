@@ -346,7 +346,7 @@ html += `
         : output.id;
 
     html += `
-        ${createResourceLink(outputName)}
+        ${createResourceLink(output.id)}
         × ${output.amount}
     `;
 

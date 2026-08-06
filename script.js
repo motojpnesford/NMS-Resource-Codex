@@ -19,10 +19,10 @@ let categories = [];
 
 Promise.all([
 
-    fetch("data/items.json").then(r => r.json()),
-    fetch("data/recipes.json").then(r => r.json()),
-    fetch("data/info.json").then(r => r.json()),
-    fetch("data/categories.json").then(r => r.json())
+    fetch("data/items.json?v=2").then(r => r.json()),
+    fetch("data/recipes.json?v=2").then(r => r.json()),
+    fetch("data/info.json？v=2").then(r => r.json()),
+    fetch("data/categories.json？v=2").then(r => r.json())
 
 ])
 

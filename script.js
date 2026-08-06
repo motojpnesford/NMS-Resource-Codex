@@ -271,7 +271,7 @@ html += `
         recipe.output.forEach(output=>{
 
 html += `
-    ${createResourceLink(output.id)
+    ${createResourceLink(output.id)}
     × ${output.amount}
 `;
         });

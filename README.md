@@ -56,6 +56,16 @@ Phase 1
 
 ⸻
 
+recipes.json 運用ルール
+
+・idは重複禁止
+・Partごとに追加
+・Wiki確認済みのみ登録
+・typeは内部IDで管理
+・machineは内部IDで管理
+
+⸻
+
 ライセンス
 
 This project is licensed under the MIT License.

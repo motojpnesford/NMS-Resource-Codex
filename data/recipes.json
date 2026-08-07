@@ -1,5 +1,196 @@
 [
-    
+    {
+    "id": "oxygen_from_kelp_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        },
+        {
+            "id": "carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "oxygen",
+            "amount": 2
+        }
+    ]
+},
+{
+    "id": "oxygen_from_kelp_condensed_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "oxygen",
+            "amount": 2
+        }
+    ]
+},
+{
+    "id": "oxygen_from_fungal_mould",
+    "type": "refine",
+    "machine": "large_refiner",
+    "input": [
+        {
+            "id": "fungal_mould",
+            "amount": 1
+        },
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        }
+    ]
+},
+{
+    "id": "oxygen_from_frost_crystal",
+    "type": "refine",
+    "machine": "large_refiner",
+    "input": [
+        {
+            "id": "frost_crystal",
+            "amount": 1
+        },
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        }
+    ]
+},
+    {
+    "id": "oxygen_from_gamma_root",
+    "type": "refine",
+    "machine": "large_refiner",
+    "input": [
+        {
+            "id": "gamma_root",
+            "amount": 1
+        },
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        }
+    ]
+},
+{
+    "id": "oxygen_from_cactus_flesh",
+    "type": "refine",
+    "machine": "large_refiner",
+    "input": [
+        {
+            "id": "cactus_flesh",
+            "amount": 1
+        },
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        }
+    ]
+},
+{
+    "id": "oxygen_from_solanium",
+    "type": "refine",
+    "machine": "large_refiner",
+    "input": [
+        {
+            "id": "solanium",
+            "amount": 1
+        },
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        }
+    ]
+},
+{
+    "id": "oxygen_from_star_bulb",
+    "type": "refine",
+    "machine": "large_refiner",
+    "input": [
+        {
+            "id": "star_bulb",
+            "amount": 1
+        },
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        }
+    ]
+},
     {
         "id": "oxygen_to_carbon",
         "type": "refine",

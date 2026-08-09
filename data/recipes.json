@@ -1,494 +1,211 @@
 [
     {
-    "id": "oxygen_from_kelp_carbon",
-    "type": "refine",
-    "machine": "medium_refiner",
-    "input": [
-        {
-            "id": "kelp_sac",
-            "amount": 1
-        },
-        {
-            "id": "carbon",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 2
-        }
-    ]
-},
-{
-    "id": "oxygen_from_kelp_condensed_carbon",
-    "type": "refine",
-    "machine": "medium_refiner",
-    "input": [
-        {
-            "id": "kelp_sac",
-            "amount": 1
-        },
-        {
-            "id": "condensed_carbon",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 2
-        }
-    ]
-},
-{
-    "id": "oxygen_from_fungal_mould",
-    "type": "refine",
-    "machine": "large_refiner",
-    "input": [
-        {
-            "id": "fungal_mould",
-            "amount": 1
-        },
-        {
-            "id": "kelp_sac",
-            "amount": 1
-        },
-        {
-            "id": "condensed_carbon",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 10
-        }
-    ]
-},
-{
-    "id": "oxygen_from_frost_crystal",
-    "type": "refine",
-    "machine": "large_refiner",
-    "input": [
-        {
-            "id": "frost_crystal",
-            "amount": 1
-        },
-        {
-            "id": "kelp_sac",
-            "amount": 1
-        },
-        {
-            "id": "condensed_carbon",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 10
-        }
-    ]
-},
-    {
-    "id": "oxygen_from_gamma_root",
-    "type": "refine",
-    "machine": "large_refiner",
-    "input": [
-        {
-            "id": "gamma_root",
-            "amount": 1
-        },
-        {
-            "id": "kelp_sac",
-            "amount": 1
-        },
-        {
-            "id": "condensed_carbon",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 10
-        }
-    ]
-},
-{
-    "id": "oxygen_from_cactus_flesh",
-    "type": "refine",
-    "machine": "large_refiner",
-    "input": [
-        {
-            "id": "cactus_flesh",
-            "amount": 1
-        },
-        {
-            "id": "kelp_sac",
-            "amount": 1
-        },
-        {
-            "id": "condensed_carbon",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 10
-        }
-    ]
-},
-{
-    "id": "oxygen_from_solanium",
-    "type": "refine",
-    "machine": "large_refiner",
-    "input": [
-        {
-            "id": "solanium",
-            "amount": 1
-        },
-        {
-            "id": "kelp_sac",
-            "amount": 1
-        },
-        {
-            "id": "condensed_carbon",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 10
-        }
-    ]
-},
-{
-    "id": "oxygen_from_star_bulb",
-    "type": "refine",
-    "machine": "large_refiner",
-    "input": [
-        {
-            "id": "star_bulb",
-            "amount": 1
-        },
-        {
-            "id": "kelp_sac",
-            "amount": 1
-        },
-        {
-            "id": "condensed_carbon",
-            "amount": 1
-        }
-    ],
-    "output": [
-        {
-            "id": "oxygen",
-            "amount": 10
-        }
-    ]
-},
-    {
-        "id": "oxygen_to_carbon",
+        "id": "kelp_sack_to_oxygen",
         "type": "refine",
         "machine": "medium_refiner",
         "input": [
             {
-                "id": "oxygen",
+                "id": "kelp_sack",
                 "amount": 1
             }
         ],
         "output": [
+            {
+                "id": "oxygen",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "id": "kelp_sack_carbon_to_oxygen",
+        "type": "refine",
+        "machine": "medium_refiner",
+        "input": [
+            {
+                "id": "kelp_sack",
+                "amount": 1
+            },
             {
                 "id": "carbon",
                 "amount": 1
             }
-        ]
-    },
-    {
-        "id": "oxygen_condensed_carbon",
-        "type": "refine",
-        "machine": "medium_refiner",
-        "input": [
-            {
-                "id": "carbon",
-                "amount": 2
-            },
+        ],
+        "output": [
             {
                 "id": "oxygen",
                 "amount": 2
             }
-        ],
-        "output": [
-            {
-                "id": "condensed_carbon",
-                "amount": 5
-            }
         ]
     },
     {
-        "id": "oxygen_condensed_carbon_expand",
+        "id": "kelp_sack_condensed_carbon_to_oxygen",
         "type": "refine",
         "machine": "medium_refiner",
         "input": [
             {
-                "id": "condensed_carbon",
+                "id": "kelp_sack",
                 "amount": 1
             },
             {
-                "id": "oxygen",
-                "amount": 2
+                "id": "condensed_carbon",
+                "amount": 1
             }
         ],
         "output": [
+            {
+                "id": "oxygen",
+                "amount": 2
+            }
+        ]
+    },
+    {
+        "id": "fungal_mould_kelp_sack_condensed_carbon_to_oxygen",
+        "type": "refine",
+        "machine": "large_refiner",
+        "input": [
+            {
+                "id": "fungal_mould",
+                "amount": 1
+            },
+            {
+                "id": "kelp_sack",
+                "amount": 1
+            },
             {
                 "id": "condensed_carbon",
-                "amount": 6
-            }
-        ]
-    },
-    {
-        "id": "oxygen_chlorine",
-        "type": "refine",
-        "machine": "medium_refiner",
-        "input": [
-            {
-                "id": "salt",
-                "amount": 2
-            },
-            {
-                "id": "oxygen",
-                "amount": 2
+                "amount": 1
             }
         ],
         "output": [
             {
-                "id": "chlorine",
-                "amount": 5
+                "id": "oxygen",
+                "amount": 10
             }
         ]
     },
     {
-        "id": "oxygen_chlorine_expand",
+        "id": "frost_crystal_kelp_sack_condensed_carbon_to_oxygen",
         "type": "refine",
-        "machine": "medium_refiner",
+        "machine": "large_refiner",
         "input": [
             {
-                "id": "chlorine",
+                "id": "frost_crystal",
                 "amount": 1
             },
             {
-                "id": "oxygen",
-                "amount": 2
+                "id": "kelp_sack",
+                "amount": 1
+            },
+            {
+                "id": "condensed_carbon",
+                "amount": 1
             }
         ],
         "output": [
             {
-                "id": "chlorine",
-                "amount": 6
+                "id": "oxygen",
+                "amount": 10
             }
         ]
     },
     {
-        "id": "oxygen_ionised_cobalt_expand",
+        "id": "gamma_root_kelp_sack_condensed_carbon_to_oxygen",
         "type": "refine",
-        "machine": "medium_refiner",
+        "machine": "large_refiner",
         "input": [
             {
-                "id": "ionised_cobalt",
+                "id": "gamma_root",
                 "amount": 1
             },
             {
-                "id": "oxygen",
-                "amount": 2
+                "id": "kelp_sack",
+                "amount": 1
+            },
+            {
+                "id": "condensed_carbon",
+                "amount": 1
             }
         ],
         "output": [
             {
-                "id": "ionised_cobalt",
-                "amount": 6
+                "id": "oxygen",
+                "amount": 10
+            }
+        ]
+    },
+    {
+        "id": "cactus_flesh_kelp_sack_condensed_carbon_to_oxygen",
+        "type": "refine",
+        "machine": "large_refiner",
+        "input": [
+            {
+                "id": "cactus_flesh",
+                "amount": 1
+            },
+            {
+                "id": "kelp_sack",
+                "amount": 1
+            },
+            {
+                "id": "condensed_carbon",
+                "amount": 1
+            }
+        ],
+        "output": [
+            {
+                "id": "oxygen",
+                "amount": 10
+            }
+        ]
+    },
+    {
+        "id": "solanium_kelp_sack_condensed_carbon_to_oxygen",
+        "type": "refine",
+        "machine": "large_refiner",
+        "input": [
+            {
+                "id": "solanium",
+                "amount": 1
+            },
+            {
+                "id": "kelp_sack",
+                "amount": 1
+            },
+            {
+                "id": "condensed_carbon",
+                "amount": 1
+            }
+        ],
+        "output": [
+            {
+                "id": "oxygen",
+                "amount": 10
+            }
+        ]
+    },
+    {
+        "id": "star_bulb_kelp_sack_condensed_carbon_to_oxygen",
+        "type": "refine",
+        "machine": "large_refiner",
+        "input": [
+            {
+                "id": "star_bulb",
+                "amount": 1
+            },
+            {
+                "id": "kelp_sack",
+                "amount": 1
+            },
+            {
+                "id": "condensed_carbon",
+                "amount": 1
+            }
+        ],
+        "output": [
+            {
+                "id": "oxygen",
+                "amount": 10
             }
         ]
     }
-    ,
-{
-    "id": "oxygen_frost_crystal",
-
-    "type": "refine",
-
-    "machine": "medium_refiner",
-
-    "input": [
-        {
-            "id": "dioxite",
-            "amount": 2
-        },
-        {
-            "id": "oxygen",
-            "amount": 1
-        }
-    ],
-
-    "output": [
-        {
-            "id": "frost_crystal",
-            "amount": 1
-        }
-    ]
-},
-{
-    "id": "oxygen_solanium",
-
-    "type": "refine",
-
-    "machine": "medium_refiner",
-
-    "input": [
-        {
-            "id": "phosphorus",
-            "amount": 2
-        },
-        {
-            "id": "oxygen",
-            "amount": 1
-        }
-    ],
-
-    "output": [
-        {
-            "id": "solanium",
-            "amount": 1
-        }
-    ]
-},
-{
-    "id": "oxygen_gamma_root",
-
-    "type": "refine",
-
-    "machine": "medium_refiner",
-
-    "input": [
-        {
-            "id": "uranium",
-            "amount": 2
-        },
-        {
-            "id": "oxygen",
-            "amount": 1
-        }
-    ],
-
-    "output": [
-        {
-            "id": "gamma_root",
-            "amount": 1
-        }
-    ]
-},
-{
-    "id": "oxygen_cactus_flesh",
-
-    "type": "refine",
-
-    "machine": "medium_refiner",
-
-    "input": [
-        {
-            "id": "pyrite",
-            "amount": 2
-        },
-        {
-            "id": "oxygen",
-            "amount": 1
-        }
-    ],
-
-    "output": [
-        {
-            "id": "cactus_flesh",
-            "amount": 1
-        }
-    ]
-},
-{
-    "id": "oxygen_fungal_mould",
-
-    "type": "refine",
-
-    "machine": "medium_refiner",
-
-    "input": [
-        {
-            "id": "ammonia",
-            "amount": 2
-        },
-        {
-            "id": "oxygen",
-            "amount": 1
-        }
-    ],
-
-    "output": [
-        {
-            "id": "fungal_mould",
-            "amount": 1
-        }
-    ]
-},
-{
-    "id": "oxygen_star_bulb",
-
-    "type": "refine",
-
-    "machine": "medium_refiner",
-
-    "input": [
-        {
-            "id": "paraffinium",
-            "amount": 2
-        },
-        {
-            "id": "oxygen",
-            "amount": 1
-        }
-    ],
-
-    "output": [
-        {
-            "id": "star_bulb",
-            "amount": 1
-        }
-    ]
-}
-    ,
-{
-    "id": "oxygen_faecium_expand",
-
-    "type": "refine",
-
-    "machine": "medium_refiner",
-
-    "input": [
-        {
-            "id": "faecium",
-            "amount": 1
-        },
-        {
-            "id": "oxygen",
-            "amount": 1
-        }
-    ],
-
-    "output": [
-        {
-            "id": "faecium",
-            "amount": 3
-        }
-    ]
-}
 ]
-

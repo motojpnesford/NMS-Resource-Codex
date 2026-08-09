@@ -1,5 +1,10 @@
 
 [
+   {
+    "id": "kelp_sack",
+    "name": "ケルプサック",
+    "category": "plant"
+}, 
     {
         "id": "oxygen",
         "name": "酸素",

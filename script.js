@@ -251,22 +251,28 @@ function showRecipes(item){
 
     result.forEach(recipe =>{
 
-        recipe.input.forEach(material =>{
+    html += `<div class="recipeInputs">`;
 
-html += `
-    ${createResourceLink(material.id)}
-    × ${material.amount}<br>
-`;
-
-        });
+    recipe.input.forEach(material =>{
 
         html += `
-            <br>
-            ↓
-            <br>
-            <small>${recipe.machine}</small>
-            <br><br>
+            <span>
+                ${createResourceLink(material.id)}
+                × ${material.amount}
+            </span>
         `;
+
+    });
+
+    html += `</div>`;
+
+    html += `
+        <br>
+        ↓
+        <br>
+        <small>${recipe.machine}</small>
+        <br><br>
+    `;
 
         recipe.output.forEach(output=>{
 

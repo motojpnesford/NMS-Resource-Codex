@@ -1,6 +1,23 @@
 
 [
    {
+    "id": "cellular_phosphate",
+    "name": "細胞性リン酸",
+    "category": "resource"
+},
+
+{
+    "id": "dihydrogen",
+    "name": "二水素",
+    "category": "resource"
+},
+
+{
+    "id": "mordite",
+    "name": "モーダイト",
+    "category": "resource"
+},
+   {
     "id": "kelp_sack",
     "name": "ケルプサック",
     "category": "plant"

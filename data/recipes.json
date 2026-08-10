@@ -1,5 +1,130 @@
 [
     {
+    "id": "oxygen_to_carbon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "carbon",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "condensed_carbon_to_carbon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "cactus_flesh_to_carbon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "cactus_flesh",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "gamma_root_to_carbon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gamma_root",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "fungal_mould_to_carbon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "fungal_mould",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "solanium_to_carbon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "solanium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "star_bulb_to_carbon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "star_bulb",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ]
+},
+    {
         "id": "kelp_sack_to_oxygen",
         "type": "refine",
         "machine": "medium_refiner",

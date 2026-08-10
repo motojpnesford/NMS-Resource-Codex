@@ -284,3 +284,12 @@ p{
     text-decoration:underline;
 
 }
+.recipeInputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+}
+
+.recipeInputs span {
+    width: calc(50% - 10px);
+}

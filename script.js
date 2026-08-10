@@ -333,7 +333,6 @@ recipe.input.forEach(material => {
 });
 
 html += `</div>`;
-        });
 
         html += `
             <br>

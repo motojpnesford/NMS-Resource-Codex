@@ -285,11 +285,12 @@ p{
 
 }
 .recipeInputs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 10px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 10px;
+    row-gap: 8px;
 }
 
 .recipeInputs span {
-    width: calc(50% - 10px);
+    white-space: nowrap;
 }

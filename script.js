@@ -319,18 +319,20 @@ function showUses(item){
 
         // 材料
 
-        recipe.input.forEach(material=>{
+        html += `<div class="recipeInputs">`;
 
-           const materialItem = items.find(i => i.id === material.id);
+recipe.input.forEach(material => {
 
-const materialName = materialItem
-    ? materialItem.name
-    : material.id;
+    html += `
+        <span>
+            ${createResourceLink(material.id)}
+            × ${material.amount}
+        </span>
+    `;
 
-html += `
-    ${createResourceLink(material.id)}
-    × ${material.amount}<br>
-`;
+});
+
+html += `</div>`;
         });
 
         html += `

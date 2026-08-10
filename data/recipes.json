@@ -1,5 +1,172 @@
 [
     {
+    "id": "carbon_to_condensed_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "cellular_phosphate_to_condensed_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "cellular_phosphate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "carbon_oxygen_to_condensed_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "carbon",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "condensed_carbon",
+            "amount": 5
+        }
+    ]
+},
+
+{
+    "id": "condensed_carbon_oxygen_expand",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "condensed_carbon",
+            "amount": 6
+        }
+    ]
+},
+
+{
+    "id": "uranium_dihydrogen_to_condensed_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 1
+        },
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "condensed_carbon",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "faecium_carbon_to_condensed_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "faecium",
+            "amount": 1
+        },
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "condensed_carbon",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "faecium_condensed_carbon_to_condensed_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "faecium",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "condensed_carbon",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "faecium_mordite_to_condensed_carbon",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "faecium",
+            "amount": 1
+        },
+        {
+            "id": "mordite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "condensed_carbon",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "oxygen_to_carbon",
     "type": "refine",
     "machine": "refiner",

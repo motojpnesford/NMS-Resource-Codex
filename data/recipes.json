@@ -1,5 +1,44 @@
 [
     {
+    "id": "chlorine_to_salt",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "chlorine",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "salt",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "dihydrogen_oxygen_to_salt",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "salt",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "carbon_to_condensed_carbon",
     "type": "refine",
     "machine": "medium_refiner",

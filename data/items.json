@@ -1,6 +1,11 @@
 
 [
    {
+    "id": "sodium",
+    "name": "ソジウム",
+    "category": "resource"
+},
+   {
     "id": "pugneum",
     "name": "パグニウム",
     "category": "special"

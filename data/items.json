@@ -1,6 +1,11 @@
 
 [
    {
+    "id": "sodium_nitrate",
+    "name": "ソジウム硝酸",
+    "category": "resource"
+},
+   {
     "id": "sodium",
     "name": "ソジウム",
     "category": "resource"

@@ -1,5 +1,88 @@
 [
     {
+    "id": "salt_to_chlorine",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "salt",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "chlorine",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "chlorine_oxygen_expand",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "chlorine",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "chlorine",
+            "amount": 6
+        }
+    ]
+},
+
+{
+    "id": "salt_oxygen_to_chlorine",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "salt",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "chlorine",
+            "amount": 5
+        }
+    ]
+},
+
+{
+    "id": "kelp_sack_oxygen_to_chlorine",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sack",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chlorine",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "chlorine_to_salt",
     "type": "refine",
     "machine": "refiner",

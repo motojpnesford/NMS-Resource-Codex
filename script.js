@@ -267,7 +267,6 @@ function showRecipes(item){
     html += `</div>`;
 
     html += `
-        <br>
         ↓
         <br>
         <small>${recipe.machine}</small>
@@ -337,7 +336,6 @@ recipe.input.forEach(material => {
 html += `</div>`;
 
         html += `
-            <br>
             ↓
             <br>
             <small>${recipe.machine}</small>

@@ -1,5 +1,40 @@
 [
     {
+    "id": "di_hydrogen_jelly_to_di_hydrogen",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "di_hydrogen_jelly",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "di_hydrogen",
+            "amount": 40
+        }
+    ]
+},
+
+{
+    "id": "tritium_to_di_hydrogen",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "tritium",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "di_hydrogen",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "sodium_to_sodium_nitrate",
     "type": "refine",
     "machine": "refiner",

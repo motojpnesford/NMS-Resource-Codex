@@ -1,6 +1,11 @@
 
 [
    {
+    "id": "deuterium",
+    "name": "重水素",
+    "category": "resource"
+},
+   {
     "id": "tritium",
     "name": "三重水素",
     "category": "resource"

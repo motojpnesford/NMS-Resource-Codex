@@ -1,6 +1,11 @@
 
 [
    {
+    "id": "pugneum",
+    "name": "パグニウム",
+    "category": "special"
+},
+   {
     "id": "kelp_sack",
     "name": "ケルプサック",
     "category": "plant"

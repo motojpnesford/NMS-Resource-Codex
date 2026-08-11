@@ -1,11 +1,11 @@
 [
     {
-    "id": "di_hydrogen_silicate_powder_to_deuterium",
+    "id": "dihydrogen_silicate_powder_to_deuterium",
     "type": "refine",
     "machine": "refiner",
     "input": [
         {
-            "id": "di_hydrogen",
+            "id": "dihydrogen",
             "amount": 1
         },
         {
@@ -22,12 +22,12 @@
 },
 
 {
-    "id": "di_hydrogen_tritium_to_deuterium",
+    "id": "dihydrogen_tritium_to_deuterium",
     "type": "refine",
     "machine": "refiner",
     "input": [
         {
-            "id": "di_hydrogen",
+            "id": "dihydrogen",
             "amount": 1
         },
         {
@@ -43,25 +43,25 @@
     ]
 },
     {
-    "id": "di_hydrogen_jelly_to_di_hydrogen",
+    "id": "dihydrogen_jelly_to_di_hydrogen",
     "type": "refine",
     "machine": "refiner",
     "input": [
         {
-            "id": "di_hydrogen_jelly",
+            "id": "dihydrogen_jelly",
             "amount": 1
         }
     ],
     "output": [
         {
-            "id": "di_hydrogen",
+            "id": "dihydrogen",
             "amount": 40
         }
     ]
 },
 
 {
-    "id": "tritium_to_di_hydrogen",
+    "id": "tritium_to_dihydrogen",
     "type": "refine",
     "machine": "refiner",
     "input": [
@@ -72,7 +72,7 @@
     ],
     "output": [
         {
-            "id": "di_hydrogen",
+            "id": "dihydrogen",
             "amount": 1
         }
     ]

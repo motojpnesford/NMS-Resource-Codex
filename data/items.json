@@ -1,6 +1,11 @@
 
 [
    {
+    "id": "di_hydrogen",
+    "name": "二水素",
+    "category": "resource"
+},
+   {
     "id": "deuterium",
     "name": "重水素",
     "category": "resource"
@@ -33,12 +38,6 @@
    {
     "id": "cellular_phosphate",
     "name": "細胞性リン酸",
-    "category": "resource"
-},
-
-{
-    "id": "dihydrogen",
-    "name": "二水素",
     "category": "resource"
 },
 

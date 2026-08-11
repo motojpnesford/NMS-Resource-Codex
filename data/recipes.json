@@ -1,5 +1,414 @@
 [
     {
+    "id": "sodium_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sodium",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "sulphurine_crystal_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sulphurine_crystal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 50
+        }
+    ]
+},
+
+{
+    "id": "carbon_sodium_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "carbon",
+            "amount": 1
+        },
+        {
+            "id": "sodium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "condensed_carbon_sodium_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        },
+        {
+            "id": "sodium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "sodium_oxygen_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "sodium",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "sodium_pugneum_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "sodium",
+            "amount": 1
+        },
+        {
+            "id": "pugneum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_sodium_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "sodium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_sodium_nitrate_expand",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_ferrite_dust_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_pure_ferrite_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_magnetised_ferrite_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "methane_sodium_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "methane",
+            "amount": 1
+        },
+        {
+            "id": "sodium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "methane_sodium_nitrate_expand",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "methane",
+            "amount": 1
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "marrow_bulb_sodium_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "marrow_bulb",
+            "amount": 1
+        },
+        {
+            "id": "sodium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "kelp_sack_sodium_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sack",
+            "amount": 1
+        },
+        {
+            "id": "sodium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "faecium_sodium_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "faecium",
+            "amount": 1
+        },
+        {
+            "id": "sodium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "marrow_bulb_sodium_nitrate_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "marrow_bulb",
+            "amount": 1
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "kelp_sack_sodium_nitrate_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sack",
+            "amount": 1
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "faecium_sodium_nitrate_to_sodium_nitrate",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "faecium",
+            "amount": 1
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "marrow_bulb_to_sodium",
     "type": "refine",
     "machine": "refiner",

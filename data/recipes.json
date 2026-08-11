@@ -1,5 +1,84 @@
 [
     {
+    "id": "marrow_bulb_to_sodium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "marrow_bulb",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "sodium_nitrate_to_sodium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "marrow_bulb_carbon_to_sodium",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "marrow_bulb",
+            "amount": 1
+        },
+        {
+            "id": "carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "marrow_bulb_condensed_carbon_to_sodium",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "marrow_bulb",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sodium",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "kelp_sack_oxygen_to_chlorine",
     "type": "refine",
     "machine": "medium_refiner",

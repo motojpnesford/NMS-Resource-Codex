@@ -1,6 +1,11 @@
 
 [
    {
+    "id": "tritium",
+    "name": "三重水素",
+    "category": "resource"
+},
+   {
     "id": "sodium_nitrate",
     "name": "ソジウム硝酸",
     "category": "resource"

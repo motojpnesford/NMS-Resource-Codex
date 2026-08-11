@@ -271,7 +271,9 @@ function showRecipes(item){
         ↓
         <br>
         <small>${recipe.machine}</small>
-        <br><br>
+        <br>
+        ↓
+        <br>
     `;
 
         recipe.output.forEach(output=>{
@@ -339,7 +341,9 @@ html += `</div>`;
             ↓
             <br>
             <small>${recipe.machine}</small>
-            <br><br>
+            <br>
+            ↓
+            <br>
         `;
 
         // 完成品

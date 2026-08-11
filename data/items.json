@@ -1,6 +1,11 @@
 
 [
    {
+    "id": "kelp_sack",
+    "name": "ケルプサック",
+    "category": "plant"
+},
+   {
     "id": "cellular_phosphate",
     "name": "細胞性リン酸",
     "category": "resource"

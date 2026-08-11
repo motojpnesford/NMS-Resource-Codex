@@ -1,5 +1,92 @@
 [
     {
+    "id": "kelp_sack_oxygen_to_chlorine",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sack",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chlorine",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "kelp_sack_pugneum_to_chlorine",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sack",
+            "amount": 1
+        },
+        {
+            "id": "pugneum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chlorine",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "kelp_sack_salt_to_chlorine",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sack",
+            "amount": 1
+        },
+        {
+            "id": "salt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chlorine",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "kelp_sack_chlorine_to_chlorine",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "kelp_sack",
+            "amount": 1
+        },
+        {
+            "id": "chlorine",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chlorine",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "salt_to_chlorine",
     "type": "refine",
     "machine": "refiner",

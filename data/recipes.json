@@ -43,7 +43,7 @@
     ]
 },
     {
-    "id": "dihydrogen_jelly_to_di_hydrogen",
+    "id": "dihydrogen_jelly_to_dihydrogen",
     "type": "refine",
     "machine": "refiner",
     "input": [

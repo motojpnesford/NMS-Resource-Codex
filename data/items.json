@@ -1,6 +1,71 @@
 
 [
    {
+    "id": "marrow_bulb",
+    "name": "マローバルブ",
+    "category": "plant"
+},
+
+{
+    "id": "dihydrogen_jelly",
+    "name": "二水素ゼリー",
+    "category": "product"
+},
+
+{
+    "id": "atlantideum",
+    "name": "アトランティデウム",
+    "category": "resource"
+},
+
+{
+    "id": "nitrogen",
+    "name": "窒素",
+    "category": "resource"
+},
+
+{
+    "id": "methane",
+    "name": "メタン",
+    "category": "resource"
+},
+
+{
+    "id": "ferrite_dust",
+    "name": "フェライト塵",
+    "category": "resource"
+},
+
+{
+    "id": "pure_ferrite",
+    "name": "ピュアフェライト",
+    "category": "resource"
+},
+
+{
+    "id": "magnetised_ferrite",
+    "name": "磁化フェライト",
+    "category": "resource"
+},
+
+{
+    "id": "silicate_powder",
+    "name": "シリケトパウダー",
+    "category": "resource"
+},
+
+{
+    "id": "cobalt",
+    "name": "コバルト",
+    "category": "resource"
+},
+
+{
+    "id": "sulphurine",
+    "name": "サルファリン",
+    "category": "resource"
+},
+   {
     "id": "dihydrogen",
     "name": "二水素",
     "category": "resource"

@@ -1,5 +1,112 @@
 [
     {
+    "id": "dioxite_to_ferrite_dust",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "paraffinium_to_ferrite_dust",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "paraffinium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "pyrite_to_ferrite_dust",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "ammonia_to_ferrite_dust",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ammonia",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "uranium_to_ferrite_dust",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "phosphorus_to_ferrite_dust",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "phosphorus",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "dihydrogen_silicate_powder_to_deuterium",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,114 @@
 [
     {
+    "id": "radon_magnetised_ferrite_to_uranium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "radon",
+            "amount": 1
+        },
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "uranium",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "phosphorus_pure_ferrite_to_uranium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "phosphorus",
+            "amount": 2
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "uranium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "phosphorus_ferrite_dust_to_uranium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "phosphorus",
+            "amount": 2
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "uranium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "radon_dihydrogen_to_uranium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "radon",
+            "amount": 1
+        },
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "uranium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "gamma_root_salt_to_uranium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gamma_root",
+            "amount": 2
+        },
+        {
+            "id": "salt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "uranium",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "silver_oxygen_to_paraffinium",
     "type": "refine",
     "machine": "refiner",

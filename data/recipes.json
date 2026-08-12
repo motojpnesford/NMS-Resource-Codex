@@ -1,5 +1,131 @@
 [
     {
+    "id": "cobalt_to_ionised_cobalt",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "cobalt",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "ionised_cobalt",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "cobalt_oxygen_to_ionised_cobalt",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "cobalt",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "ionised_cobalt",
+            "amount": 5
+        }
+    ]
+},
+
+{
+    "id": "ionised_cobalt_oxygen_expand",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "ionised_cobalt",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "ionised_cobalt",
+            "amount": 6
+        }
+    ]
+},
+
+{
+    "id": "marrow_bulb_ionised_cobalt",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "marrow_bulb",
+            "amount": 1
+        },
+        {
+            "id": "ionised_cobalt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ionised_cobalt",
+            "amount": 2
+        }
+    ]
+},
+    {
+    "id": "marrow_bulb_oxygen_to_ionised_cobalt",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "marrow_bulb",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ionised_cobalt",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "marrow_bulb_pugneum_to_ionised_cobalt",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "marrow_bulb",
+            "amount": 1
+        },
+        {
+            "id": "pugneum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ionised_cobalt",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "ionised_cobalt_to_cobalt",
     "type": "refine",
     "machine": "refiner",

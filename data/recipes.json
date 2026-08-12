@@ -1,5 +1,408 @@
 [
     {
+    "id": "pure_ferrite_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "ferrite_dust_carbon_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        },
+        {
+            "id": "carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "ferrite_dust_condensed_carbon_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_carbon_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_condensed_carbon_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_pugneum_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 2
+        },
+        {
+            "id": "pugneum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "copper_ferrite_dust_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "copper",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "cadmium_ferrite_dust_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "cadmium",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "emeril_ferrite_dust_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "emeril",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "indium_ferrite_dust_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "indium",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "activated_copper_ferrite_dust_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_copper",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "activated_cadmium_ferrite_dust_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_cadmium",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "activated_emeril_ferrite_dust_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_emeril",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 6
+        }
+    ]
+},
+
+{
+    "id": "activated_indium_ferrite_dust_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_indium",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 8
+        }
+    ]
+},
+
+{
+    "id": "platinum_oxygen_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "platinum",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 10
+        }
+    ]
+},
+
+{
+    "id": "ferrite_dust_pure_ferrite_silver_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "silver",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 5
+        }
+    ]
+},
+
+{
+    "id": "ferrite_dust_pure_ferrite_gold_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "gold",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 8
+        }
+    ]
+},
+
+{
+    "id": "ferrite_dust_pure_ferrite_platinum_to_magnetised_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "platinum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 12
+        }
+    ]
+},
+    {
     "id": "ferrite_dust_to_pure_ferrite",
     "type": "refine",
     "machine": "refiner",

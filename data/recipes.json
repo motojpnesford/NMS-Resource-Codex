@@ -1,5 +1,22 @@
 [
     {
+    "id": "ionised_cobalt_to_cobalt",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ionised_cobalt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "cobalt",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "silicate_powder_to_glass",
     "type": "refine",
     "machine": "refiner",

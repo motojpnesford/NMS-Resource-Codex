@@ -1,5 +1,92 @@
 [
     {
+    "id": "dioxite_ferrite_dust_to_phosphorus",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 2
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "phosphorus",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "dioxite_pure_ferrite_to_phosphorus",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 2
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "phosphorus",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "solanium_salt_to_phosphorus",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "solanium",
+            "amount": 2
+        },
+        {
+            "id": "salt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "phosphorus",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "dihydrogen_methane_to_phosphorus",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "phosphorus",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "carbon_sodium_nitrate_to_dioxite",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,114 @@
 [
     {
+    "id": "carbon_sodium_nitrate_to_dioxite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "carbon",
+            "amount": 1
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "dioxite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "condensed_carbon_sodium_nitrate_to_dioxite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "dioxite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "ammonia_ferrite_dust_to_dioxite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ammonia",
+            "amount": 2
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "dioxite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "ammonia_pure_ferrite_to_dioxite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ammonia",
+            "amount": 2
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "dioxite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "frost_crystal_salt_to_dioxite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "frost_crystal",
+            "amount": 2
+        },
+        {
+            "id": "salt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "dioxite",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "cobalt_to_ionised_cobalt",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,158 @@
 [
     {
+    "id": "silver_oxygen_to_paraffinium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "silver",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "paraffinium",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "pyrite_ferrite_dust_to_paraffinium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 2
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "paraffinium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "pyrite_pure_ferrite_to_paraffinium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 2
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "paraffinium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "sulphurine_ferrite_dust_to_paraffinium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "paraffinium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "sulphurine_pure_ferrite_to_paraffinium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 1
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "paraffinium",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "sulphurine_magnetised_ferrite_to_paraffinium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 1
+        },
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "paraffinium",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "star_bulb_salt_to_paraffinium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "star_bulb",
+            "amount": 2
+        },
+        {
+            "id": "salt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "paraffinium",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "dioxite_ferrite_dust_to_phosphorus",
     "type": "refine",
     "machine": "medium_refiner",

@@ -1,5 +1,44 @@
 [
     {
+    "id": "silicate_powder_to_glass",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "silicate_powder",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "glass",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "silicate_powder_dihydrogen_to_deuterium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "silicate_powder",
+            "amount": 1
+        },
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "deuterium",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "pure_ferrite_to_magnetised_ferrite",
     "type": "refine",
     "machine": "refiner",

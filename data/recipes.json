@@ -96,12 +96,12 @@
 },
 
 {
-    "id": "sulphurine_crystal_to_sodium_nitrate",
+    "id": "sulphurine_to_sodium_nitrate",
     "type": "refine",
     "machine": "refiner",
     "input": [
         {
-            "id": "sulphurine_crystal",
+            "id": "sulphurine",
             "amount": 1
         }
     ],

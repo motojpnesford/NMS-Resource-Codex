@@ -1,6 +1,71 @@
 
 [
    {
+    "id": "copper",
+    "name": "銅",
+    "category": "resource"
+},
+
+{
+    "id": "cadmium",
+    "name": "カドミウム",
+    "category": "resource"
+},
+
+{
+    "id": "emeril",
+    "name": "エメリル",
+    "category": "resource"
+},
+
+{
+    "id": "indium",
+    "name": "インジウム",
+    "category": "resource"
+},
+
+{
+    "id": "activated_copper",
+    "name": "活性化銅",
+    "category": "resource"
+},
+
+{
+    "id": "activated_cadmium",
+    "name": "活性化カドミウム",
+    "category": "resource"
+},
+
+{
+    "id": "activated_emeril",
+    "name": "活性化エメリル",
+    "category": "resource"
+},
+
+{
+    "id": "activated_indium",
+    "name": "活性化インジウム",
+    "category": "resource"
+},
+
+{
+    "id": "platinum",
+    "name": "プラチナ",
+    "category": "resource"
+},
+
+{
+    "id": "silver",
+    "name": "銀",
+    "category": "resource"
+},
+
+{
+    "id": "gold",
+    "name": "金",
+    "category": "resource"
+},
+   {
     "id": "marrow_bulb",
     "name": "マローバルブ",
     "category": "plant"

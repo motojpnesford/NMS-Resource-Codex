@@ -1,5 +1,40 @@
 [
     {
+    "id": "ferrite_dust_to_pure_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "magnetised_ferrite_to_pure_ferrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pure_ferrite",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "dioxite_to_ferrite_dust",
     "type": "refine",
     "machine": "refiner",

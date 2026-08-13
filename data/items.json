@@ -1,5 +1,10 @@
 [
    {
+    "id": "pyrite",
+    "name": "黄鉄鉱",
+    "category": "resource"
+},
+   {
     "id": "crystallised_helium",
     "name": "結晶化ヘリウム",
     "category": "resource"

@@ -1,5 +1,15 @@
 [
    {
+    "id": "quartzite",
+    "name": "珪岩",
+    "category": "resource"
+},
+{
+    "id": "activated_quartzite",
+    "name": "活性化珪岩",
+    "category": "resource"
+},
+   {
     "id": "lithium",
     "name": "リチウム",
     "category": "resource"

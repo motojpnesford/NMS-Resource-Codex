@@ -1,5 +1,48 @@
 [
     {
+    "id": "phosphorus_magnetised_ferrite_to_basalt",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "phosphorus",
+            "amount": 1
+        },
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "basalt",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "pyrite_magnetised_ferrite_to_basalt",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        },
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "basalt",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "gold_to_pyrite",
     "type": "refine",
     "machine": "refiner",

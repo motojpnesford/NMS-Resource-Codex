@@ -1,5 +1,176 @@
 [
     {
+    "id": "gold_to_pyrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gold",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "gold_oxygen_to_pyrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gold",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pyrite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "uranium_ferrite_dust_to_pyrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 2
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "uranium_pure_ferrite_to_pyrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 2
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "lithium_ferrite_dust_to_pyrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "lithium",
+            "amount": 1
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "lithium_pure_ferrite_to_pyrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "lithium",
+            "amount": 1
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pyrite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "lithium_magnetised_ferrite_to_pyrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "lithium",
+            "amount": 1
+        },
+        {
+            "id": "magnetised_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pyrite",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "cactus_flesh_salt_to_pyrite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "cactus_flesh",
+            "amount": 2
+        },
+        {
+            "id": "salt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "paraffinium_ferrite_dust_to_ammonia",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,10 @@
 [
    {
+    "id": "lithium",
+    "name": "リチウム",
+    "category": "resource"
+},
+   {
     "id": "pyrite",
     "name": "黄鉄鉱",
     "category": "resource"

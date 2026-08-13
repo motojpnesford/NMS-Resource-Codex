@@ -1,5 +1,92 @@
 [
     {
+    "id": "paraffinium_ferrite_dust_to_ammonia",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "paraffinium",
+            "amount": 2
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ammonia",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "paraffinium_pure_ferrite_to_ammonia",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "paraffinium",
+            "amount": 2
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ammonia",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_dihydrogen_to_ammonia",
+    "type": "refine",
+    "machine": "medium_refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ammonia",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "fungal_mould_salt_to_ammonia",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "fungal_mould",
+            "amount": 2
+        },
+        {
+            "id": "salt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "ammonia",
+            "amount": 1
+        }
+    ]
+},
+    {
     "id": "radon_magnetised_ferrite_to_uranium",
     "type": "refine",
     "machine": "refiner",

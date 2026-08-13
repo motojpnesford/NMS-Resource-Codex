@@ -1,5 +1,48 @@
 [
     {
+    "id": "lithium_quartzite_to_crystallised_helium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "lithium",
+            "amount": 1
+        },
+        {
+            "id": "quartzite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "crystallised_helium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "lithium_activated_quartzite_to_crystallised_helium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "lithium",
+            "amount": 1
+        },
+        {
+            "id": "activated_quartzite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "crystallised_helium",
+            "amount": 2
+        }
+    ]
+},
+    {
     "id": "phosphorus_magnetised_ferrite_to_basalt",
     "type": "refine",
     "machine": "refiner",

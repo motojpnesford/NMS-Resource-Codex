@@ -1,5 +1,10 @@
 [
    {
+    "id": "crystallised_helium",
+    "name": "結晶化ヘリウム",
+    "category": "resource"
+},
+   {
     "id": "basalt",
     "name": "玄武岩",
     "category": "resource"

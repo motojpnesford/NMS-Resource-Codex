@@ -1,5 +1,9 @@
-
 [
+   {
+    "id": "basalt",
+    "name": "玄武岩",
+    "category": "resource"
+},
    {
     "id": "copper",
     "name": "銅",

@@ -1,5 +1,15 @@
 [
    {
+    "id": "geodesite",
+    "name": "ジオデサイト",
+    "category": "resource"
+},
+{
+    "id": "iridesite",
+    "name": "イリデサイト",
+    "category": "resource"
+},
+   {
     "id": "aronium",
     "name": "アロニウム",
     "category": "resource"

@@ -1,5 +1,20 @@
 [
    {
+    "id": "aronium",
+    "name": "アロニウム",
+    "category": "resource"
+},
+{
+    "id": "herox",
+    "name": "ヒロックス",
+    "category": "resource"
+},
+{
+    "id": "dirty_bronze",
+    "name": "くすんだ青銅",
+    "category": "resource"
+},
+   {
     "id": "quartzite",
     "name": "珪岩",
     "category": "resource"

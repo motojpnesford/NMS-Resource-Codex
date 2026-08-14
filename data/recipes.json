@@ -1,4 +1,87 @@
 [
+ {
+    "id": "geodesite_to_platinum",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "geodesite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "platinum",
+            "amount": 250
+        }
+    ]
+},
+
+{
+    "id": "iridesite_to_platinum",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "iridesite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "platinum",
+            "amount": 250
+        }
+    ]
+},
+
+{
+    "id": "silver_gold_to_platinum",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "silver",
+            "amount": 1
+        },
+        {
+            "id": "gold",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "platinum",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "ferrite_dust_oxygen_chromatic_metal_to_platinum",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 250
+        }
+    ],
+    "output": [
+        {
+            "id": "platinum",
+            "amount": 10
+        }
+    ]
+},   
     {
     "id": "hexite_to_gold",
     "type": "refine",

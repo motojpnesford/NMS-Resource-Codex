@@ -1,5 +1,58 @@
 [
     {
+    "id": "aronium_to_silver",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "aronium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "silver",
+            "amount": 250
+        }
+    ]
+},
+
+{
+    "id": "herox_to_silver",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "herox",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "silver",
+            "amount": 250
+        }
+    ]
+},
+
+{
+    "id": "dirty_bronze_to_silver",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "silver",
+            "amount": 250
+        }
+    ]
+},
+    {
     "id": "crystallised_helium_ferrite_dust_to_uranium",
     "type": "refine",
     "machine": "refiner",

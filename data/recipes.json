@@ -1,26 +1,5 @@
 [
     {
-    "id": "faecium_carbon_to_cellular_phosphate",
-    "type": "refine",
-    "machine": "medium_refiner",
-    "input": [
-        {
-            "id": "faecium",
-            "amount": 1
-        },
-        {
-            "id": "carbon",
-            "amount": 2
-        }
-    ],
-    "output": [
-        {
-            "id": "cellular_phosphate",
-            "amount": 1
-        }
-    ]
-},
-    {
     "id": "crystallised_helium_ferrite_dust_to_uranium",
     "type": "refine",
     "machine": "refiner",

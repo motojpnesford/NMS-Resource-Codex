@@ -1,5 +1,26 @@
 [
  {
+    "id": "copper_chromatic_metal_expand",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "copper",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "copper",
+            "amount": 2
+        }
+    ]
+},
+ {
     "id": "geodesite_to_platinum",
     "type": "refine",
     "machine": "refiner",

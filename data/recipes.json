@@ -1,5 +1,26 @@
 [
  {
+    "id": "quartzite_chromatic_metal_expand",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "quartzite",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "quartzite",
+            "amount": 2
+        }
+    ]
+},
+ {
     "id": "indium_chromatic_metal_expand",
     "type": "refine",
     "machine": "refiner",

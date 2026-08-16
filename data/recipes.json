@@ -1,5 +1,26 @@
 [
  {
+    "id": "indium_chromatic_metal_expand",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "indium",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "indium",
+            "amount": 2
+        }
+    ]
+},
+ {
     "id": "emeril_chromatic_metal_expand",
     "type": "refine",
     "machine": "refiner",

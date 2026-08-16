@@ -1,5 +1,26 @@
 [
  {
+    "id": "emeril_chromatic_metal_expand",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "emeril",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "emeril",
+            "amount": 2
+        }
+    ]
+},
+ {
     "id": "cadmium_chromatic_metal_to_cadmium",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,92 @@
 [
  {
+    "id": "star_bulb_paraffinium_to_star_bulb",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "star_bulb",
+            "amount": 1
+        },
+        {
+            "id": "paraffinium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "star_bulb",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "paraffinium_oxygen_to_star_bulb",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "paraffinium",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "star_bulb",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "paraffinium_nitrogen_to_star_bulb",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "paraffinium",
+            "amount": 1
+        },
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "star_bulb",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "paraffinium_methane_to_star_bulb",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "paraffinium",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "star_bulb",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "solanium_phosphorus_to_solanium",
     "type": "refine",
     "machine": "refiner",

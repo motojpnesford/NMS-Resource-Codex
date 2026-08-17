@@ -1,5 +1,10 @@
 [
    {
+    "id": "radiant_shard",
+    "name": "ラディアントシャード",
+    "category": "resource"
+},
+   {
     "id": "atlantideum",
     "name": "アトランティディウム",
     "category": "resource"

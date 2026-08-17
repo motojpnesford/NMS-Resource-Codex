@@ -1,5 +1,10 @@
 [
    {
+    "id": "heptaploid_wheat",
+    "name": "七倍体小麦",
+    "category": "plant"
+},
+   {
     "id": "hexaberry",
     "name": "ヘクサベリー",
     "category": "plant"

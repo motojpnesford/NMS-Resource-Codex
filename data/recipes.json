@@ -1,5 +1,66 @@
 [
  {
+    "id": "sulphurine_to_radon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 3
+        }
+    ],
+    "output": [
+        {
+            "id": "radon",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "sulphurine_oxygen_to_radon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "radon",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "sulphurine_chromatic_metal_to_radon",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "radon",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "nitrogen_to_sulphurine",
     "type": "refine",
     "machine": "refiner",

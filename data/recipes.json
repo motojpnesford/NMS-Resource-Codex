@@ -1,5 +1,56 @@
 [
  {
+    "id": "quartzite_methane_lithium_to_activated_quartzite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "methane",
+            "amount": 1
+        },
+        {
+            "id": "lithium",
+            "amount": 1
+        },
+        {
+            "id": "quartzite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "activated_quartzite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "quartzite_methane_crystallised_helium_to_activated_quartzite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "methane",
+            "amount": 1
+        },
+        {
+            "id": "crystallised_helium",
+            "amount": 1
+        },
+        {
+            "id": "quartzite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "activated_quartzite",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "quartzite_chromatic_metal_expand",
     "type": "refine",
     "machine": "refiner",

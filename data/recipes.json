@@ -1,5 +1,154 @@
 [
  {
+    "id": "mordite_to_faecium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "mordite",
+            "amount": 3
+        }
+    ],
+    "output": [
+        {
+            "id": "faecium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "dihydrogen_carbon_to_faecium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        },
+        {
+            "id": "carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "faecium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "faecium_oxygen_to_faecium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "faecium",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "faecium",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_sulphurine_to_faecium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "sulphurine",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "faecium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "mordite_carbon_to_faecium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "mordite",
+            "amount": 1
+        },
+        {
+            "id": "carbon",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "faecium",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "mordite_condensed_carbon_to_faecium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "mordite",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "faecium",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "mordite_methane_to_faecium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "mordite",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "faecium",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "salt_nitrogen_to_kelp_sac",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,48 @@
 [
  {
+    "id": "ferrite_dust_oxygen_to_rusted_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "rusted_metal",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_oxygen_to_rusted_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "rusted_metal",
+            "amount": 2
+        }
+    ]
+},
+ {
     "id": "living_slime_to_runaway_mould",
     "type": "refine",
     "machine": "refiner",

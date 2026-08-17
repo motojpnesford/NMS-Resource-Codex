@@ -1,5 +1,92 @@
 [
  {
+    "id": "gamma_root_uranium_to_gamma_root",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gamma_root",
+            "amount": 1
+        },
+        {
+            "id": "uranium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "gamma_root",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "uranium_oxygen_to_gamma_root",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "gamma_root",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "uranium_radon_to_gamma_root",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 1
+        },
+        {
+            "id": "radon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "gamma_root",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "uranium_methane_to_gamma_root",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "gamma_root",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "star_bulb_paraffinium_to_star_bulb",
     "type": "refine",
     "machine": "refiner",

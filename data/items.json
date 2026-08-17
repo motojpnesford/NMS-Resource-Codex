@@ -1,5 +1,10 @@
 [
    {
+    "id": "rusted_metal",
+    "name": "さびた金属",
+    "category": "resource"
+},
+   {
     "id": "residual_goop",
     "name": "残留粘体",
     "category": "resource"

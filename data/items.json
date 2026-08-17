@@ -1,5 +1,10 @@
 [
    {
+    "id": "inverted_mirror",
+    "name": "反転ミラー",
+    "category": "resource"
+},
+   {
     "id": "radiant_shard",
     "name": "ラディアントシャード",
     "category": "resource"

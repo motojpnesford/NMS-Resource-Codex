@@ -1,5 +1,22 @@
 [
  {
+    "id": "atlantideum_to_pugneum",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "atlantideum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "pugneum",
+            "amount": 2
+        }
+    ]
+},
+ {
     "id": "faecium_to_mordite",
     "type": "refine",
     "machine": "refiner",

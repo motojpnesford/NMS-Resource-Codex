@@ -1,5 +1,22 @@
 [
  {
+    "id": "tainted_metal_to_nanite_cluster",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "tainted_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "nanite_cluster",
+            "amount": 2
+        }
+    ]
+},
+ {
     "id": "atlantideum_to_pugneum",
     "type": "refine",
     "machine": "refiner",

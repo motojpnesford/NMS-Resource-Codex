@@ -1,5 +1,534 @@
 [
  {
+    "id": "copper_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "copper",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "activated_copper_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_copper",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "cadmium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "cadmium",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "activated_cadmium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_cadmium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "emeril_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "emeril",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "activated_emeril_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_emeril",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "indium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "indium",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "activated_indium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_indium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "quartzite_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "quartzite",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "activated_quartzite_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "activated_quartzite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_copper_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "copper",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_cadmium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "cadmium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_emeril_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "emeril",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 3
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_indium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "indium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_quartzite_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "quartzite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_activated_copper_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "activated_copper",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_activated_cadmium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "activated_cadmium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 4
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_activated_emeril_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "activated_emeril",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 6
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_activated_indium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "activated_indium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 8
+        }
+    ]
+},
+
+{
+    "id": "pure_ferrite_activated_quartzite_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pure_ferrite",
+            "amount": 1
+        },
+        {
+            "id": "activated_quartzite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 8
+        }
+    ]
+},
+
+{
+    "id": "gold_silver_copper_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gold",
+            "amount": 1
+        },
+        {
+            "id": "silver",
+            "amount": 1
+        },
+        {
+            "id": "copper",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 5
+        }
+    ]
+},
+
+{
+    "id": "gold_silver_cadmium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gold",
+            "amount": 1
+        },
+        {
+            "id": "silver",
+            "amount": 1
+        },
+        {
+            "id": "cadmium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 10
+        }
+    ]
+},
+
+{
+    "id": "gold_silver_emeril_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gold",
+            "amount": 1
+        },
+        {
+            "id": "silver",
+            "amount": 1
+        },
+        {
+            "id": "emeril",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 20
+        }
+    ]
+},
+
+{
+    "id": "gold_silver_indium_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gold",
+            "amount": 1
+        },
+        {
+            "id": "silver",
+            "amount": 1
+        },
+        {
+            "id": "indium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 30
+        }
+    ]
+},
+
+{
+    "id": "gold_silver_quartzite_to_chromatic_metal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "gold",
+            "amount": 1
+        },
+        {
+            "id": "silver",
+            "amount": 1
+        },
+        {
+            "id": "quartzite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "chromatic_metal",
+            "amount": 30
+        }
+    ]
+},
+ {
     "id": "quartzite_methane_lithium_to_activated_quartzite",
     "type": "refine",
     "machine": "refiner",

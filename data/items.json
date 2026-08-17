@@ -1,5 +1,10 @@
 [
    {
+    "id": "jade_peas",
+    "name": "翡翠豆",
+    "category": "plant"
+},
+   {
     "id": "grahberry",
     "name": "グラァベリー",
     "category": "plant"

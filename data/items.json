@@ -1,5 +1,10 @@
 [
    {
+    "id": "hexaberry",
+    "name": "ヘクサベリー",
+    "category": "plant"
+},
+   {
     "id": "aloe_flesh",
     "name": "アロエ肉",
     "category": "plant"

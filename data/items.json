@@ -1,5 +1,10 @@
 [
    {
+    "id": "pulpy_roots",
+    "name": "果肉根",
+    "category": "plant"
+},
+   {
     "id": "sweetroot",
     "name": "甘い根",
     "category": "plant"

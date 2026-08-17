@@ -1,5 +1,10 @@
 [
    {
+    "id": "liquid_sun",
+    "name": "液体太陽",
+    "category": "resource"
+},
+   {
     "id": "cursed_dust",
     "name": "呪われた塵",
     "category": "resource"

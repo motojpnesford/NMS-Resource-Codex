@@ -1,5 +1,92 @@
 [
  {
+    "id": "cactus_flesh_pyrite_to_cactus_flesh",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "cactus_flesh",
+            "amount": 1
+        },
+        {
+            "id": "pyrite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "cactus_flesh",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "pyrite_oxygen_to_cactus_flesh",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "cactus_flesh",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "pyrite_sulphurine_to_cactus_flesh",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        },
+        {
+            "id": "sulphurine",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "cactus_flesh",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "pyrite_methane_to_cactus_flesh",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "cactus_flesh",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "fungal_mould_ammonia_to_fungal_mould",
     "type": "refine",
     "machine": "refiner",

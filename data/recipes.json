@@ -1,5 +1,88 @@
 [
  {
+    "id": "faecium_to_mordite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "faecium",
+            "amount": 3
+        }
+    ],
+    "output": [
+        {
+            "id": "mordite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "carbon_pugneum_to_mordite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "carbon",
+            "amount": 1
+        },
+        {
+            "id": "pugneum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "mordite",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "condensed_carbon_pugneum_to_mordite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        },
+        {
+            "id": "pugneum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "mordite",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "dihydrogen_condensed_carbon_to_mordite",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "mordite",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "ferrite_dust_oxygen_to_rusted_metal",
     "type": "refine",
     "machine": "refiner",

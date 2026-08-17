@@ -1,5 +1,10 @@
 [
    {
+    "id": "grahberry",
+    "name": "グラァベリー",
+    "category": "plant"
+},
+   {
     "id": "impulse_beans",
     "name": "インパルス豆",
     "category": "plant"

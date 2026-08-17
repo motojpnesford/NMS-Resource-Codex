@@ -1,5 +1,34 @@
 [
    {
+    "id": "residual_goop",
+    "name": "残留粘体",
+    "category": "resource"
+},
+
+{
+    "id": "viscous_fluids",
+    "name": "どろりとした液体",
+    "category": "resource"
+},
+
+{
+    "id": "living_slime",
+    "name": "動く粘液",
+    "category": "resource"
+},
+
+{
+    "id": "runaway_mould",
+    "name": "暴走カビ",
+    "category": "resource"
+},
+
+{
+    "id": "nanite_cluster",
+    "name": "ナノマシンクラスター",
+    "category": "resource"
+},
+   {
     "id": "chromatic_metal",
     "name": "有色金属",
     "category": "resource"

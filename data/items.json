@@ -324,11 +324,7 @@
     "name": "モーダイト",
     "category": "resource"
 },
-   {
-    "id": "kelp_sack",
-    "name": "ケルプサック",
-    "category": "plant"
-}, 
+   
     {
         "id": "oxygen",
         "name": "酸素",
@@ -404,11 +400,7 @@
         "name": "アンモニア",
         "category": "resource"
     },
-    {
-        "id": "fungal_mould",
-        "name": "菌類カビ",
-        "category": "plant"
-    },
+   
     {
         "id": "paraffinium",
         "name": "パラフィン",

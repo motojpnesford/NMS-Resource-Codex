@@ -1,5 +1,44 @@
 [
  {
+    "id": "living_slime_to_runaway_mould",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "living_slime",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "runaway_mould",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "atlantideum_pugneum_to_runaway_mould",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "atlantideum",
+            "amount": 1
+        },
+        {
+            "id": "pugneum",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "runaway_mould",
+            "amount": 3
+        }
+    ]
+},
+ {
     "id": "viscous_fluids_to_living_slime",
     "type": "refine",
     "machine": "refiner",

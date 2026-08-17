@@ -1,5 +1,10 @@
 [
    {
+    "id": "soulfrag",
+    "name": "特質の断片",
+    "category": "resource"
+},
+   {
     "id": "liquid_sun",
     "name": "液体太陽",
     "category": "resource"

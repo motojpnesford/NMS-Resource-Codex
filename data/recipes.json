@@ -1,5 +1,22 @@
 [
  {
+    "id": "cursed_dust_to_residual_goop",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "cursed_dust",
+            "amount": 2
+        }
+    ],
+    "output": [
+        {
+            "id": "residual_goop",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "copper_to_chromatic_metal",
     "type": "refine",
     "machine": "refiner",

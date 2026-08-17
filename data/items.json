@@ -1,5 +1,10 @@
 [
    {
+    "id": "radon",
+    "name": "ラドン",
+    "category": "resource"
+},
+   {
     "id": "sulphurine",
     "name": "サルファリン",
     "category": "resource"

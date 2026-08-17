@@ -1,5 +1,10 @@
 [
    {
+    "id": "frozen_tubers",
+    "name": "冷凍茎",
+    "category": "plant"
+},
+   {
     "id": "fungal_mould",
     "name": "真菌カビ",
     "category": "plant"

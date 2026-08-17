@@ -1,5 +1,66 @@
 [
  {
+    "id": "nitrogen_to_sulphurine",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 3
+        }
+    ],
+    "output": [
+        {
+            "id": "sulphurine",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_oxygen_to_sulphurine",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sulphurine",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "nitrogen_chromatic_metal_to_sulphurine",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "sulphurine",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "mordite_to_faecium",
     "type": "refine",
     "machine": "refiner",

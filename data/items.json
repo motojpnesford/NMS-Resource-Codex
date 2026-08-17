@@ -1,5 +1,10 @@
 [
    {
+    "id": "polished_stone",
+    "name": "ポリッシュストーン",
+    "category": "resource"
+},
+   {
     "id": "soulfrag",
     "name": "特質の断片",
     "category": "resource"

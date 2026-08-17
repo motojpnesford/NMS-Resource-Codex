@@ -1,5 +1,92 @@
 [
  {
+    "id": "fungal_mould_ammonia_to_fungal_mould",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ammonia",
+            "amount": 1
+        },
+        {
+            "id": "fungal_mould",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "fungal_mould",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "ammonia_oxygen_to_fungal_mould",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ammonia",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "fungal_mould",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "ammonia_nitrogen_to_fungal_mould",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ammonia",
+            "amount": 1
+        },
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "fungal_mould",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "ammonia_methane_to_fungal_mould",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ammonia",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "fungal_mould",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "gamma_root_uranium_to_gamma_root",
     "type": "refine",
     "machine": "refiner",

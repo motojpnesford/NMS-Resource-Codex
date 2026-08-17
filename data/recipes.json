@@ -1,5 +1,22 @@
 [
  {
+    "id": "residual_goop_to_viscous_fluids",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "residual_goop",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "viscous_fluids",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "cursed_dust_to_residual_goop",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,10 @@
 [
    {
+    "id": "aloe_flesh",
+    "name": "アロエ肉",
+    "category": "plant"
+},
+   {
     "id": "jade_peas",
     "name": "翡翠豆",
     "category": "plant"

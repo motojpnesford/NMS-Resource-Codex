@@ -1,5 +1,92 @@
 [
  {
+    "id": "frost_crystal_dioxite_to_frost_crystal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "frost_crystal",
+            "amount": 1
+        },
+        {
+            "id": "dioxite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "frost_crystal",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "dioxite_oxygen_to_frost_crystal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "frost_crystal",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "dioxite_radon_to_frost_crystal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 1
+        },
+        {
+            "id": "radon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "frost_crystal",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "dioxite_methane_to_frost_crystal",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "frost_crystal",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "tainted_metal_to_nanite_cluster",
     "type": "refine",
     "machine": "refiner",

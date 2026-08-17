@@ -1,5 +1,10 @@
 [
    {
+    "id": "tainted_metal",
+    "name": "汚染された金属",
+    "category": "resource"
+},
+   {
     "id": "pugneum",
     "name": "パグニウム",
     "category": "resource"

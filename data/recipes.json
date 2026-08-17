@@ -1,5 +1,114 @@
 [
  {
+    "id": "solanium_phosphorus_to_solanium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "solanium",
+            "amount": 1
+        },
+        {
+            "id": "phosphorus",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "solanium",
+            "amount": 2
+        }
+    ]
+},
+
+{
+    "id": "phosphorus_oxygen_to_solanium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "phosphorus",
+            "amount": 2
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "solanium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "phosphorus_sulphurine_to_solanium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "phosphorus",
+            "amount": 1
+        },
+        {
+            "id": "sulphurine",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "solanium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "phosphorus_methane_to_solanium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "phosphorus",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "solanium",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "dihydrogen_sulphurine_to_solanium",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 1
+        },
+        {
+            "id": "sulphurine",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "solanium",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "frost_crystal_dioxite_to_frost_crystal",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,62 @@
 [
  {
+    "id": "viscous_fluids_to_living_slime",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "viscous_fluids",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "living_slime",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "hypnotic_eye_to_living_slime",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "hypnotic_eye",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "living_slime",
+            "amount": 50
+        }
+    ]
+},
+
+{
+    "id": "atlantideum_mordite_to_living_slime",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "atlantideum",
+            "amount": 5
+        },
+        {
+            "id": "mordite",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "living_slime",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "residual_goop_to_viscous_fluids",
     "type": "refine",
     "machine": "refiner",

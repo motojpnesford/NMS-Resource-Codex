@@ -1,5 +1,10 @@
 [
    {
+    "id": "atlantideum",
+    "name": "アトランティディウム",
+    "category": "resource"
+},
+   {
     "id": "hexite",
     "name": "ヘキシット",
     "category": "resource"

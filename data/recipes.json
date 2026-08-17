@@ -1,5 +1,48 @@
 [
  {
+    "id": "salt_nitrogen_to_kelp_sac",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "salt",
+            "amount": 1
+        },
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "lithium_methane_to_kelp_sac",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "lithium",
+            "amount": 1
+        },
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "kelp_sac",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "sodium_mordite_to_marrow_bulb",
     "type": "refine",
     "machine": "refiner",

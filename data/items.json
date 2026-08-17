@@ -1,5 +1,10 @@
 [
    {
+    "id": "sulphurine",
+    "name": "サルファリン",
+    "category": "resource"
+},
+   {
     "id": "pulpy_roots",
     "name": "果肉根",
     "category": "plant"

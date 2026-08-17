@@ -1,5 +1,10 @@
 [
    {
+    "id": "pugneum",
+    "name": "パグニウム",
+    "category": "resource"
+},
+   {
     "id": "rusted_metal",
     "name": "さびた金属",
     "category": "resource"

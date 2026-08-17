@@ -1,5 +1,10 @@
 [
    {
+    "id": "cursed_dust",
+    "name": "呪われた塵",
+    "category": "resource"
+},
+   {
     "id": "inverted_mirror",
     "name": "反転ミラー",
     "category": "resource"

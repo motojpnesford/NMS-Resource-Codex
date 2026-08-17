@@ -1,5 +1,10 @@
 [
    {
+    "id": "hexite",
+    "name": "ヘキシット",
+    "category": "resource"
+},
+   {
     "id": "tainted_metal",
     "name": "汚染された金属",
     "category": "resource"

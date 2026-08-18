@@ -1,5 +1,22 @@
 [
  {
+    "id": "carbon_to_carbon_nanotubes",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "carbon",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "carbon_nanotubes",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "sulphurine_radon_nitrogen_to_methane",
     "type": "refine",
     "machine": "refiner",

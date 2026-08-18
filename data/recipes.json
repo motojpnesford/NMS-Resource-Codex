@@ -1,5 +1,22 @@
 [
  {
+    "id": "ferrite_dust_to_metal_plating",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "metal_plating",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "carbon_to_carbon_nanotubes",
     "type": "craft",
     "machine": "craft",

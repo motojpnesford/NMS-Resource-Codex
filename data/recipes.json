@@ -1,5 +1,128 @@
 [
  {
+    "id": "radon_to_nitrogen",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "radon",
+            "amount": 3
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "radon_oxygen_to_nitrogen",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "radon",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "radon_chromatic_metal_to_nitrogen",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "radon",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "methane_to_nitrogen",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "methane",
+            "amount": 3
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "methane_oxygen_to_nitrogen",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "methane",
+            "amount": 1
+        },
+        {
+            "id": "oxygen",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ]
+},
+
+{
+    "id": "methane_chromatic_metal_to_nitrogen",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "methane",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "sulphurine_to_radon",
     "type": "refine",
     "machine": "refiner",

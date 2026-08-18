@@ -1,5 +1,10 @@
 [
    {
+    "id": "methane",
+    "name": "メタン",
+    "category": "resource"
+},
+   {
     "id": "nitrogen",
     "name": "窒素",
     "category": "resource"

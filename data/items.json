@@ -1,5 +1,10 @@
 [
    {
+    "id": "carbon_nanotubes",
+    "name": "カーボンナノチューブ",
+    "category": "component"
+},
+   {
     "id": "methane",
     "name": "メタン",
     "category": "resource"

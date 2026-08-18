@@ -1,5 +1,10 @@
 [
    {
+    "id": "hermetic_seal",
+    "name": "気密シール",
+    "category": "craft_material"
+},
+   {
     "id": "metal_plating",
     "name": "金属プレート",
     "category": "craft_material"

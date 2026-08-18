@@ -4399,12 +4399,12 @@
 },
 
 {
-    "id": "kelp_sack_sodium_to_sodium_nitrate",
+    "id": "kelp_sac_sodium_to_sodium_nitrate",
     "type": "refine",
     "machine": "medium_refiner",
     "input": [
         {
-            "id": "kelp_sack",
+            "id": "kelp_sac",
             "amount": 1
         },
         {
@@ -4465,12 +4465,12 @@
 },
 
 {
-    "id": "kelp_sack_sodium_nitrate_to_sodium_nitrate",
+    "id": "kelp_sac_sodium_nitrate_to_sodium_nitrate",
     "type": "refine",
     "machine": "medium_refiner",
     "input": [
         {
-            "id": "kelp_sack",
+            "id": "kelp_sac",
             "amount": 1
         },
         {
@@ -4587,12 +4587,12 @@
     ]
 },
     {
-    "id": "kelp_sack_oxygen_to_chlorine",
+    "id": "kelp_sac_oxygen_to_chlorine",
     "type": "refine",
     "machine": "medium_refiner",
     "input": [
         {
-            "id": "kelp_sack",
+            "id": "kelp_sac",
             "amount": 1
         },
         {
@@ -4609,12 +4609,12 @@
 },
 
 {
-    "id": "kelp_sack_pugneum_to_chlorine",
+    "id": "kelp_sac_pugneum_to_chlorine",
     "type": "refine",
     "machine": "medium_refiner",
     "input": [
         {
-            "id": "kelp_sack",
+            "id": "kelp_sac",
             "amount": 1
         },
         {
@@ -4631,12 +4631,12 @@
 },
 
 {
-    "id": "kelp_sack_salt_to_chlorine",
+    "id": "kelp_sac_salt_to_chlorine",
     "type": "refine",
     "machine": "medium_refiner",
     "input": [
         {
-            "id": "kelp_sack",
+            "id": "kelp_sac",
             "amount": 1
         },
         {
@@ -4653,12 +4653,12 @@
 },
 
 {
-    "id": "kelp_sack_chlorine_to_chlorine",
+    "id": "kelp_sac_chlorine_to_chlorine",
     "type": "refine",
     "machine": "medium_refiner",
     "input": [
         {
-            "id": "kelp_sack",
+            "id": "kelp_sac",
             "amount": 1
         },
         {

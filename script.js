@@ -7,6 +7,7 @@
 const searchInput = document.getElementById("searchInput");
 const searchButton = document.getElementById("searchButton");
 const resultArea = document.getElementById("resultArea");
+const suggestArea = document.getElementById("suggestArea");
 
 let items = [];
 let recipes = [];
@@ -51,6 +52,73 @@ searchInput.addEventListener("keydown", function(event){
         searchResource();
 
     }
+
+});
+searchInput.addEventListener("input", showSuggestions);
+// --------------------
+// 検索候補表示
+// --------------------
+
+function showSuggestions(){
+
+    const keyword = searchInput.value.trim().toLowerCase();
+
+    suggestArea.innerHTML = "";
+
+    if(keyword === ""){
+
+        return;
+
+    }
+
+    const results = items.filter(item =>
+        item.name.toLowerCase().includes(keyword)
+    );
+
+    if(results.length === 0){
+
+        return;
+
+    }
+
+    results.forEach(item => {
+
+        const suggestion = document.createElement("div");
+
+        suggestion.className = "suggestionItem";
+
+        suggestion.textContent = item.name;
+
+        suggestion.dataset.id = item.id;
+
+        suggestArea.appendChild(suggestion);
+
+    });
+
+}
+suggestArea.addEventListener("click", function(event){
+
+    if(!event.target.classList.contains("suggestionItem")){
+
+        return;
+
+    }
+
+    const id = event.target.dataset.id;
+
+    const item = items.find(data => data.id === id);
+
+    if(!item){
+
+        return;
+
+    }
+
+    searchInput.value = item.name;
+
+    suggestArea.innerHTML = "";
+
+    showResult(item);
 
 });
 function searchResource(){

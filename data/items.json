@@ -1,5 +1,10 @@
 [
    {
+    "id": "metal_plating",
+    "name": "金属プレート",
+    "category": "craft_material"
+},
+   {
     "id": "carbon_nanotubes",
     "name": "カーボンナノチューブ",
     "category": "craft_material"

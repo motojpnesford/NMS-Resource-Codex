@@ -1,5 +1,30 @@
 [
  {
+    "id": "sulphurine_radon_nitrogen_to_methane",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 3
+        },
+        {
+            "id": "radon",
+            "amount": 3
+        },
+        {
+            "id": "nitrogen",
+            "amount": 3
+        }
+    ],
+    "output": [
+        {
+            "id": "methane",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "radon_to_nitrogen",
     "type": "refine",
     "machine": "refiner",

@@ -5088,12 +5088,12 @@
     ]
 },
     {
-        "id": "kelp_sack_to_oxygen",
+        "id": "kelp_sac_to_oxygen",
         "type": "refine",
         "machine": "medium_refiner",
         "input": [
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             }
         ],
@@ -5105,12 +5105,12 @@
         ]
     },
     {
-        "id": "kelp_sack_carbon_to_oxygen",
+        "id": "kelp_sac_carbon_to_oxygen",
         "type": "refine",
         "machine": "medium_refiner",
         "input": [
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             },
             {
@@ -5126,12 +5126,12 @@
         ]
     },
     {
-        "id": "kelp_sack_condensed_carbon_to_oxygen",
+        "id": "kelp_sac_condensed_carbon_to_oxygen",
         "type": "refine",
         "machine": "medium_refiner",
         "input": [
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             },
             {
@@ -5147,7 +5147,7 @@
         ]
     },
     {
-        "id": "fungal_mould_kelp_sack_condensed_carbon_to_oxygen",
+        "id": "fungal_mould_kelp_sac_condensed_carbon_to_oxygen",
         "type": "refine",
         "machine": "large_refiner",
         "input": [
@@ -5156,7 +5156,7 @@
                 "amount": 1
             },
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             },
             {
@@ -5172,7 +5172,7 @@
         ]
     },
     {
-        "id": "frost_crystal_kelp_sack_condensed_carbon_to_oxygen",
+        "id": "frost_crystal_kelp_sac_condensed_carbon_to_oxygen",
         "type": "refine",
         "machine": "large_refiner",
         "input": [
@@ -5181,7 +5181,7 @@
                 "amount": 1
             },
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             },
             {
@@ -5197,7 +5197,7 @@
         ]
     },
     {
-        "id": "gamma_root_kelp_sack_condensed_carbon_to_oxygen",
+        "id": "gamma_root_kelp_sac_condensed_carbon_to_oxygen",
         "type": "refine",
         "machine": "large_refiner",
         "input": [
@@ -5206,7 +5206,7 @@
                 "amount": 1
             },
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             },
             {
@@ -5222,7 +5222,7 @@
         ]
     },
     {
-        "id": "cactus_flesh_kelp_sack_condensed_carbon_to_oxygen",
+        "id": "cactus_flesh_kelp_sac_condensed_carbon_to_oxygen",
         "type": "refine",
         "machine": "large_refiner",
         "input": [
@@ -5231,7 +5231,7 @@
                 "amount": 1
             },
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             },
             {
@@ -5247,7 +5247,7 @@
         ]
     },
     {
-        "id": "solanium_kelp_sack_condensed_carbon_to_oxygen",
+        "id": "solanium_kelp_sac_condensed_carbon_to_oxygen",
         "type": "refine",
         "machine": "large_refiner",
         "input": [
@@ -5256,7 +5256,7 @@
                 "amount": 1
             },
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             },
             {
@@ -5281,7 +5281,7 @@
                 "amount": 1
             },
             {
-                "id": "kelp_sack",
+                "id": "kelp_sac",
                 "amount": 1
             },
             {

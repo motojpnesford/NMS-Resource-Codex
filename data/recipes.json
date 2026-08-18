@@ -4736,12 +4736,12 @@
 },
 
 {
-    "id": "kelp_sack_oxygen_to_chlorine",
+    "id": "kelp_sac_oxygen_to_chlorine",
     "type": "refine",
     "machine": "medium_refiner",
     "input": [
         {
-            "id": "kelp_sack",
+            "id": "kelp_sac",
             "amount": 1
         },
         {

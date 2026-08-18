@@ -1,5 +1,22 @@
 [
  {
+    "id": "condensed_carbon_to_hermetic_seal",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 30
+        }
+    ],
+    "output": [
+        {
+            "id": "hermetic_seal",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "ferrite_dust_to_metal_plating",
     "type": "craft",
     "machine": "craft",

@@ -1,5 +1,51 @@
 [
  {
+    "id": "ferrite_dust_silver_sodium_to_ion_battery",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 10
+        },
+        {
+            "id": "silver",
+            "amount": 10
+        },
+        {
+            "id": "sodium",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "ion_battery",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "ferrite_dust_cobalt_to_ion_battery",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 5
+        },
+        {
+            "id": "cobalt",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "ion_battery",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "oxygen_ferrite_dust_carbon_to_unstable_plasma",
     "type": "refine",
     "machine": "refiner",

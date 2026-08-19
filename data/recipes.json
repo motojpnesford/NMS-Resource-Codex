@@ -1,5 +1,30 @@
 [
  {
+    "id": "carbon_nanotubes_salt_dihydrogen_to_hydraulic_wiring",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "carbon_nanotubes",
+            "amount": 2
+        },
+        {
+            "id": "salt",
+            "amount": 20
+        },
+        {
+            "id": "dihydrogen",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "hydraulic_wiring",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "metal_plating_chlorine_condensed_carbon_to_amino_chamber",
     "type": "craft",
     "machine": "craft",

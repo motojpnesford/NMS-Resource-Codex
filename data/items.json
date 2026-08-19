@@ -1,5 +1,10 @@
 [
    {
+    "id": "ion_battery",
+    "name": "イオン電池",
+    "category": "consumable"
+},
+   {
     "id": "unstable_plasma",
     "name": "変動性プラズマ",
     "category": "consumable"

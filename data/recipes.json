@@ -1,5 +1,39 @@
 [
  {
+    "id": "dihydrogen_to_dihydrogen_jelly_refine",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 30
+        }
+    ],
+    "output": [
+        {
+            "id": "dihydrogen_jelly",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "dihydrogen_to_dihydrogen_jelly_craft",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "dihydrogen_jelly",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "condensed_carbon_to_hermetic_seal",
     "type": "craft",
     "machine": "craft",

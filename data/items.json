@@ -1,5 +1,10 @@
 [
    {
+    "id": "quantum_computer",
+    "name": "量子コンピューター",
+    "category": "craft_material"
+},
+   {
     "id": "microprocessor",
     "name": "マイクロプロセッサー",
     "category": "craft_material"

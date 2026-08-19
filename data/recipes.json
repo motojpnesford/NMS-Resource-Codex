@@ -1,5 +1,126 @@
 [
  {
+    "id": "oxygen_ferrite_dust_carbon_to_unstable_plasma",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 20
+        },
+        {
+            "id": "carbon",
+            "amount": 20
+        }
+    ],
+    "output": [
+        {
+            "id": "unstable_plasma",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "oxygen_ferrite_dust_condensed_carbon_to_unstable_plasma",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 20
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "unstable_plasma",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "oxygen_pure_ferrite_carbon_to_unstable_plasma",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 20
+        },
+        {
+            "id": "carbon",
+            "amount": 20
+        }
+    ],
+    "output": [
+        {
+            "id": "unstable_plasma",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "oxygen_pure_ferrite_condensed_carbon_to_unstable_plasma",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 20
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "unstable_plasma",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "oxygen_metal_plating_to_unstable_plasma",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "oxygen",
+            "amount": 50
+        },
+        {
+            "id": "metal_plating",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "unstable_plasma",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "oxygen_condensed_carbon_dihydrogen_to_life_support_gel",
     "type": "refine",
     "machine": "refiner",

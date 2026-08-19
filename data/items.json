@@ -1,5 +1,10 @@
 [
    {
+    "id": "solar_mirror",
+    "name": "ソーラーミラー",
+    "category": "craft_material"
+},
+   {
     "id": "magnetic_resonator",
     "name": "電磁共鳴装置",
     "category": "craft_material"

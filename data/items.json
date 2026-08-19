@@ -1,5 +1,10 @@
 [
    {
+    "id": "hydraulic_wiring",
+    "name": "油圧系ワイヤー",
+    "category": "craft_material"
+},
+   {
     "id": "amino_chamber",
     "name": "アミノチャンバー",
     "category": "craft_material"

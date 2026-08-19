@@ -1,5 +1,30 @@
 [
  {
+    "id": "metal_plating_chlorine_condensed_carbon_to_amino_chamber",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "metal_plating",
+            "amount": 1
+        },
+        {
+            "id": "chlorine",
+            "amount": 20
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 25
+        }
+    ],
+    "output": [
+        {
+            "id": "amino_chamber",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "gold_silver_chromatic_metal_to_solar_mirror",
     "type": "craft",
     "machine": "craft",

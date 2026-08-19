@@ -1,5 +1,10 @@
 [
    {
+    "id": "ammunition",
+    "name": "発射弾",
+    "category": "craft_material"
+},
+   {
     "id": "hydraulic_wiring",
     "name": "油圧系ワイヤー",
     "category": "craft_material"

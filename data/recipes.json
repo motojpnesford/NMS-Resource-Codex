@@ -1,5 +1,26 @@
 [
  {
+    "id": "chromatic_metal_carbon_nanotubes_to_microprocessor",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "chromatic_metal",
+            "amount": 40
+        },
+        {
+            "id": "carbon_nanotubes",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "microprocessor",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "oxygen_ferrite_dust_to_antimatter_housing",
     "type": "craft",
     "machine": "craft",

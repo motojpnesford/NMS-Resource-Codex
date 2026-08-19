@@ -1,5 +1,10 @@
 [
    {
+    "id": "life_support_gel",
+    "name": "生命維持ジェル",
+    "category": "consumable"
+},
+   {
     "id": "ammunition",
     "name": "発射弾",
     "category": "craft_material"

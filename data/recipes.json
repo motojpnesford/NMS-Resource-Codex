@@ -1,5 +1,26 @@
 [
  {
+    "id": "tritium_gold_to_starshield_battery",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "tritium",
+            "amount": 50
+        },
+        {
+            "id": "gold",
+            "amount": 20
+        }
+    ],
+    "output": [
+        {
+            "id": "starshield_battery",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "ferrite_dust_silver_sodium_to_ion_battery",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,30 @@
 [
  {
+    "id": "microprocessor_antimatter_chromatic_metal_to_quantum_computer",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "microprocessor",
+            "amount": 1
+        },
+        {
+            "id": "antimatter",
+            "amount": 1
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 25
+        }
+    ],
+    "output": [
+        {
+            "id": "quantum_computer",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "chromatic_metal_carbon_nanotubes_to_microprocessor",
     "type": "craft",
     "machine": "craft",

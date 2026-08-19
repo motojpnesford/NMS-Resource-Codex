@@ -1,5 +1,26 @@
 [
  {
+    "id": "magnetized_ferrite_ionized_cobalt_to_magnetic_resonator",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "magnetized_ferrite",
+            "amount": 40
+        },
+        {
+            "id": "ionized_cobalt",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "magnetic_resonator",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "microprocessor_antimatter_chromatic_metal_to_quantum_computer",
     "type": "craft",
     "machine": "craft",

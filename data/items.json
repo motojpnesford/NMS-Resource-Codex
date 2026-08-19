@@ -1,5 +1,10 @@
 [
    {
+    "id": "amino_chamber",
+    "name": "アミノチャンバー",
+    "category": "craft_material"
+},
+   {
     "id": "solar_mirror",
     "name": "ソーラーミラー",
     "category": "craft_material"

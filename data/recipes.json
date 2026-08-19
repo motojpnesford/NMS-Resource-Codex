@@ -1,5 +1,51 @@
 [
  {
+    "id": "oxygen_condensed_carbon_dihydrogen_to_life_support_gel",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "oxygen",
+            "amount": 10
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 10
+        },
+        {
+            "id": "dihydrogen",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "life_support_gel",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "dihydrogen_jelly_carbon_to_life_support_gel",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "dihydrogen_jelly",
+            "amount": 1
+        },
+        {
+            "id": "carbon",
+            "amount": 20
+        }
+    ],
+    "output": [
+        {
+            "id": "life_support_gel",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "ferrite_dust_to_ammunition",
     "type": "craft",
     "machine": "craft",

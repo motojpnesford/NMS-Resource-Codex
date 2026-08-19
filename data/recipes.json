@@ -1,5 +1,26 @@
 [
  {
+    "id": "chromatic_metal_condensed_carbon_to_antimatter",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "chromatic_metal",
+            "amount": 25
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 20
+        }
+    ],
+    "output": [
+        {
+            "id": "antimatter",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "dihydrogen_to_dihydrogen_jelly_refine",
     "type": "refine",
     "machine": "refiner",

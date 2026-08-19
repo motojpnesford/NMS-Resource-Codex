@@ -1,5 +1,10 @@
 [
    {
+    "id": "antimatter_housing",
+    "name": "反物質格納容器",
+    "category": "craft_material"
+},
+   {
     "id": "antimatter",
     "name": "反物質",
     "category": "craft_material"

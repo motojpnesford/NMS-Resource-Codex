@@ -1,5 +1,22 @@
 [
  {
+    "id": "ferrite_dust_to_ammunition",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "ferrite_dust",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "ammunition",
+            "amount": 1250
+        }
+    ]
+},
+ {
     "id": "carbon_nanotubes_salt_dihydrogen_to_hydraulic_wiring",
     "type": "craft",
     "machine": "craft",

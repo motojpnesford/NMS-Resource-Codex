@@ -1,5 +1,26 @@
 [
  {
+    "id": "oxygen_ferrite_dust_to_antimatter_housing",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "oxygen",
+            "amount": 30
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "antimatter_housing",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "chromatic_metal_condensed_carbon_to_antimatter",
     "type": "craft",
     "machine": "craft",

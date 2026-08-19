@@ -1,5 +1,10 @@
 [
    {
+    "id": "magnetic_resonator",
+    "name": "電磁共鳴装置",
+    "category": "craft_material"
+},
+   {
     "id": "quantum_computer",
     "name": "量子コンピューター",
     "category": "craft_material"

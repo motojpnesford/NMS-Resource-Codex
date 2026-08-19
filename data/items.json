@@ -1,5 +1,10 @@
 [
    {
+    "id": "starshield_battery",
+    "name": "スターシールドバッテリー",
+    "category": "consumable"
+},
+   {
     "id": "ion_battery",
     "name": "イオン電池",
     "category": "consumable"

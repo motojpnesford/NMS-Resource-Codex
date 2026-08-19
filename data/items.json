@@ -1,5 +1,10 @@
 [
    {
+    "id": "antimatter",
+    "name": "反物質",
+    "category": "craft_material"
+},
+   {
     "id": "hermetic_seal",
     "name": "気密シール",
     "category": "craft_material"

@@ -1,5 +1,10 @@
 [
    {
+    "id": "starship_launch_fuel",
+    "name": "宇宙船発射燃料",
+    "category": "consumable"
+},
+   {
     "id": "warp_hypercore",
     "name": "ワープハイパーコア",
     "category": "consumable"

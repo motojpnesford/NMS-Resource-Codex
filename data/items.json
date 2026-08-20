@@ -1,5 +1,10 @@
 [
    {
+    "id": "atlas_pass_v2",
+    "name": "アトラスパス ver2",
+    "category": "craft_material"
+},
+   {
     "id": "atlas_pass_v1",
     "name": "アトラスパス ver1",
     "category": "craft_material"

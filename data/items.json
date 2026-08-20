@@ -1,5 +1,10 @@
 [
    {
+    "id": "warp_cell",
+    "name": "ワープセル",
+    "category": "consumable"
+},
+   {
     "id": "starshield_battery",
     "name": "スターシールドバッテリー",
     "category": "consumable"

@@ -1,5 +1,101 @@
 [
  {
+    "id": "carbon_sodium_nitrate_chromatic_metal_to_warp_cell",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "carbon",
+            "amount": 50
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 5
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 250
+        }
+    ],
+    "output": [
+        {
+            "id": "warp_cell",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "condensed_carbon_sodium_chromatic_metal_to_warp_cell",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 25
+        },
+        {
+            "id": "sodium",
+            "amount": 10
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 250
+        }
+    ],
+    "output": [
+        {
+            "id": "warp_cell",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "condensed_carbon_sodium_nitrate_chromatic_metal_to_warp_cell",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 25
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 5
+        },
+        {
+            "id": "chromatic_metal",
+            "amount": 250
+        }
+    ],
+    "output": [
+        {
+            "id": "warp_cell",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "antimatter_housing_antimatter_to_warp_cell",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "antimatter_housing",
+            "amount": 1
+        },
+        {
+            "id": "antimatter",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "warp_cell",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "tritium_gold_to_starshield_battery",
     "type": "craft",
     "machine": "craft",

@@ -1,5 +1,26 @@
 [
  {
+    "id": "dihydrogen_tritium_to_frigate_fuel_50",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 50
+        },
+        {
+            "id": "tritium",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "frigate_fuel_50",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "dihydrogen_ferrite_dust_sodium_nitrate_to_starship_launch_fuel",
     "type": "refine",
     "machine": "refiner",

@@ -1,5 +1,26 @@
 [
  {
+    "id": "emeril_microprocessor_to_atlas_pass_v3",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "emeril",
+            "amount": 200
+        },
+        {
+            "id": "microprocessor",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "atlas_pass_v3",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "cadmium_microprocessor_to_atlas_pass_v2",
     "type": "craft",
     "machine": "craft",

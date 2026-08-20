@@ -1,5 +1,26 @@
 [
  {
+    "id": "copper_microprocessor_to_atlas_pass_v1",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "copper",
+            "amount": 200
+        },
+        {
+            "id": "microprocessor",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "atlas_pass_v1",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "salt_cyto_phosphate_carbon_to_hydrothermal_fuel_cell",
     "type": "craft",
     "machine": "craft",

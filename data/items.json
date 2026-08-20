@@ -1,5 +1,20 @@
 [
    {
+    "id": "hydrothermal_fuel_cell",
+    "name": "熱水燃料電池",
+    "category": "consumable"
+},
+      {
+    "id": "frigate_fuel_200",
+    "name": "フリゲートの燃料（200t）",
+    "category": "consumable"
+},
+      {
+    "id": "frigate_fuel_100",
+    "name": "フリゲートの燃料（100t）",
+    "category": "consumable"
+},
+   {
     "id": "frigate_fuel_50",
     "name": "フリゲートの燃料（50t）",
     "category": "consumable"

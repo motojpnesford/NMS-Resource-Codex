@@ -1,5 +1,101 @@
 [
  {
+    "id": "dihydrogen_ferrite_dust_sodium_nitrate_to_starship_launch_fuel",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 10
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 20
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "starship_launch_fuel",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dihydrogen_pure_ferrite_sodium_to_starship_launch_fuel",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 10
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 20
+        },
+        {
+            "id": "sodium",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "starship_launch_fuel",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dihydrogen_magnetised_ferrite_sodium_nitrate_to_starship_launch_fuel",
+    "type": "refine",
+    "machine": "refiner",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 10
+        },
+        {
+            "id": "magnetised_ferrite",
+            "amount": 10
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "starship_launch_fuel",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "dihydrogen_metal_plating_to_starship_launch_fuel",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "dihydrogen",
+            "amount": 40
+        },
+        {
+            "id": "metal_plating",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "starship_launch_fuel",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "antimatter_storm_crystal_to_warp_hypercore",
     "type": "craft",
     "machine": "craft",

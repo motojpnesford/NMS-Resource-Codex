@@ -1,5 +1,26 @@
 [
  {
+    "id": "hydraulic_wiring_gold_to_mineral_compressor",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "hydraulic_wiring",
+            "amount": 1
+        },
+        {
+            "id": "gold",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "mineral_compressor",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "walker_brain_gold_to_explosive_drones",
     "type": "craft",
     "machine": "craft",

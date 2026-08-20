@@ -1,5 +1,26 @@
 [
  {
+    "id": "walker_brain_gold_to_explosive_drones",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "walker_brain",
+            "amount": 1
+        },
+        {
+            "id": "gold",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "explosive_drones",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "quad_servo_gold_to_fuel_oxidiser",
     "type": "craft",
     "machine": "craft",

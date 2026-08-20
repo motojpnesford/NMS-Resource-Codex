@@ -1,5 +1,10 @@
 [
    {
+    "id": "frigate_fuel_50",
+    "name": "フリゲートの燃料（50t）",
+    "category": "consumable"
+},
+   {
     "id": "starship_launch_fuel",
     "name": "宇宙船発射燃料",
     "category": "consumable"

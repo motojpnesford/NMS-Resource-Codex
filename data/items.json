@@ -1,5 +1,10 @@
 [
    {
+    "id": "explosive_drones",
+    "name": "爆撃ドローン",
+    "category": "consumable"
+},
+   {
     "id": "fuel_oxidiser",
     "name": "燃料酸化剤",
     "category": "consumable"

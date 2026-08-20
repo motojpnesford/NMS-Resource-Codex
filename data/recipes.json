@@ -1,5 +1,30 @@
 [
  {
+    "id": "salt_cyto_phosphate_carbon_to_hydrothermal_fuel_cell",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "salt",
+            "amount": 40
+        },
+        {
+            "id": "cyto_phosphate",
+            "amount": 40
+        },
+        {
+            "id": "carbon",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "hydrothermal_fuel_cell",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "dihydrogen_tritium_to_frigate_fuel_50",
     "type": "craft",
     "machine": "craft",

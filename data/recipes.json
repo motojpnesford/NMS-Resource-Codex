@@ -1,5 +1,26 @@
 [
  {
+    "id": "quad_servo_gold_to_fuel_oxidiser",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "quad_servo",
+            "amount": 2
+        },
+        {
+            "id": "gold",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "fuel_oxidiser",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "emeril_microprocessor_to_atlas_pass_v3",
     "type": "craft",
     "machine": "craft",

@@ -1,5 +1,26 @@
 [
  {
+    "id": "antimatter_storm_crystal_to_warp_hypercore",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "antimatter",
+            "amount": 1
+        },
+        {
+            "id": "storm_crystal",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "warp_hypercore",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "carbon_sodium_nitrate_chromatic_metal_to_warp_cell",
     "type": "refine",
     "machine": "refiner",

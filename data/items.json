@@ -1,5 +1,10 @@
 [
    {
+    "id": "mealworms",
+    "name": "ミールワーム",
+    "category": "consumable"
+},
+   {
     "id": "creature_pellets",
     "name": "クリーチャーペレット",
     "category": "consumable"

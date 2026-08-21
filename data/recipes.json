@@ -1,5 +1,30 @@
 [
  {
+    "id": "magnetic_resonator_metal_plating_tritium_to_magpulse_lure",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "magnetic_resonator",
+            "amount": 1
+        },
+        {
+            "id": "metal_plating",
+            "amount": 1
+        },
+        {
+            "id": "tritium",
+            "amount": 90
+        }
+    ],
+    "output": [
+        {
+            "id": "magpulse_lure",
+            "amount": 30
+        }
+    ]
+},
+ {
     "id": "antimatter_metal_plating_cellular_phosphorus_to_shadow_lure",
     "type": "craft",
     "machine": "craft",

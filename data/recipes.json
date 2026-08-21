@@ -1,5 +1,22 @@
 [
  {
+    "id": "carbon_to_creature_pellets",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "carbon",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "creature_pellets",
+            "amount": 5
+        }
+    ]
+},
+ {
     "id": "solar_mirror_gold_to_mind_control_device",
     "type": "craft",
     "machine": "craft",

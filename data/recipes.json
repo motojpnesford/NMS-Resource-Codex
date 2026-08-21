@@ -1,5 +1,30 @@
 [
  {
+    "id": "solar_mirror_metal_plating_sodium_nitrate_to_dangling_orb",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "solar_mirror",
+            "amount": 1
+        },
+        {
+            "id": "metal_plating",
+            "amount": 1
+        },
+        {
+            "id": "sodium_nitrate",
+            "amount": 65
+        }
+    ],
+    "output": [
+        {
+            "id": "dangling_orb",
+            "amount": 20
+        }
+    ]
+},
+ {
     "id": "amino_chamber_ion_battery_lubricant_to_bionic_lure",
     "type": "craft",
     "machine": "craft",

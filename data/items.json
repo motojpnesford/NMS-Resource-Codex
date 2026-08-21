@@ -1,5 +1,10 @@
 [
    {
+    "id": "shadow_lure",
+    "name": "シャドールアー",
+    "category": "consumable"
+},
+   {
     "id": "dangling_orb",
     "name": "揺れるオーブ",
     "category": "consumable"

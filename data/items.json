@@ -1,5 +1,10 @@
 [
    {
+    "id": "holographic_analyser",
+    "name": "ホログラム分析装置",
+    "category": "consumable"
+},
+   {
     "id": "mineral_compressor",
     "name": "鉱物圧縮装置",
     "category": "consumable"

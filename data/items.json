@@ -1,5 +1,10 @@
 [
    {
+    "id": "dangling_orb",
+    "name": "揺れるオーブ",
+    "category": "consumable"
+},
+   {
     "id": "bionic_lure",
     "name": "生体工学ルアー",
     "category": "consumable"

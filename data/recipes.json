@@ -1,5 +1,30 @@
 [
  {
+    "id": "amino_chamber_ion_battery_lubricant_to_bionic_lure",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "amino_chamber",
+            "amount": 2
+        },
+        {
+            "id": "ion_battery",
+            "amount": 3
+        },
+        {
+            "id": "lubricant",
+            "amount": 3
+        }
+    ],
+    "output": [
+        {
+            "id": "bionic_lure",
+            "amount": 20
+        }
+    ]
+},
+ {
     "id": "mordite_phosphorus_dihydrogen_to_spicy_chum",
     "type": "craft",
     "machine": "craft",

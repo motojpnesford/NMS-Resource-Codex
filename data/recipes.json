@@ -1,5 +1,26 @@
 [
  {
+    "id": "solar_mirror_gold_to_mind_control_device",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "solar_mirror",
+            "amount": 1
+        },
+        {
+            "id": "gold",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "mind_control_device",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "quantum_computer_gold_to_holographic_analyser",
     "type": "craft",
     "machine": "craft",

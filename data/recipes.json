@@ -1,5 +1,26 @@
 [
  {
+    "id": "quantum_computer_gold_to_holographic_analyser",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "quantum_computer",
+            "amount": 1
+        },
+        {
+            "id": "gold",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "holographic_analyser",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "hydraulic_wiring_gold_to_mineral_compressor",
     "type": "craft",
     "machine": "craft",

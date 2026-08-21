@@ -1,5 +1,26 @@
 [
  {
+    "id": "cactus_flesh_star_bulb_to_poly_fibre",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "cactus_flesh",
+            "amount": 100
+        },
+        {
+            "id": "star_bulb",
+            "amount": 200
+        }
+    ],
+    "output": [
+        {
+            "id": "poly_fibre",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "magnetic_resonator_metal_plating_tritium_to_magpulse_lure",
     "type": "craft",
     "machine": "craft",

@@ -1,5 +1,22 @@
 [
  {
+    "id": "condensed_carbon_to_mealworms",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "condensed_carbon",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "mealworms",
+            "amount": 30
+        }
+    ]
+},
+ {
     "id": "carbon_to_creature_pellets",
     "type": "craft",
     "machine": "craft",

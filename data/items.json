@@ -1,5 +1,10 @@
 [
    {
+    "id": "mind_control_device",
+    "name": "マインドコントロール装置",
+    "category": "consumable"
+},
+   {
     "id": "holographic_analyser",
     "name": "ホログラム分析装置",
     "category": "consumable"

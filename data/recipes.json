@@ -1,5 +1,30 @@
 [
  {
+    "id": "mordite_phosphorus_dihydrogen_to_spicy_chum",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "mordite",
+            "amount": 80
+        },
+        {
+            "id": "phosphorus",
+            "amount": 25
+        },
+        {
+            "id": "dihydrogen",
+            "amount": 90
+        }
+    ],
+    "output": [
+        {
+            "id": "spicy_chum",
+            "amount": 30
+        }
+    ]
+},
+ {
     "id": "condensed_carbon_to_mealworms",
     "type": "craft",
     "machine": "craft",

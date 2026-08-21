@@ -1,5 +1,10 @@
 [
    {
+    "id": "poly_fibre",
+    "name": "ポリファイバー",
+    "category": "craft_material"
+},
+   {
     "id": "magpulse_lure",
     "name": "マグパルスルアー",
     "category": "consumable"

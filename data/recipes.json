@@ -1,5 +1,30 @@
 [
  {
+    "id": "antimatter_metal_plating_cellular_phosphorus_to_shadow_lure",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "antimatter",
+            "amount": 2
+        },
+        {
+            "id": "metal_plating",
+            "amount": 1
+        },
+        {
+            "id": "cellular_phosphorus",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "shadow_lure",
+            "amount": 30
+        }
+    ]
+},
+ {
     "id": "solar_mirror_metal_plating_sodium_nitrate_to_dangling_orb",
     "type": "craft",
     "machine": "craft",

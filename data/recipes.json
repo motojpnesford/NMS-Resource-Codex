@@ -1,5 +1,26 @@
 [
  {
+    "id": "frost_crystal_solanium_to_heat_capacitor",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "frost_crystal",
+            "amount": 100
+        },
+        {
+            "id": "solanium",
+            "amount": 200
+        }
+    ],
+    "output": [
+        {
+            "id": "heat_capacitor",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "cactus_flesh_star_bulb_to_poly_fibre",
     "type": "craft",
     "machine": "craft",

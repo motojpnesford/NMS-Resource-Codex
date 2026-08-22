@@ -1,5 +1,26 @@
 [
  {
+    "id": "heat_capacitor_poly_fibre_to_circuit_board",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "heat_capacitor",
+            "amount": 1
+        },
+        {
+            "id": "poly_fibre",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "circuit_board",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "frost_crystal_solanium_to_heat_capacitor",
     "type": "craft",
     "machine": "craft",

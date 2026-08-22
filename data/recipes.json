@@ -1,5 +1,77 @@
 [
  {
+    "id": "frost_crystal_to_glass",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "frost_crystal",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "glass",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "cyto_phosphate_salt_to_glass",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "cyto_phosphate",
+            "amount": 50
+        },
+        {
+            "id": "salt",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "glass",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "silicate_powder_to_glass",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "silicate_powder",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "glass",
+            "amount": 1
+        }
+    ]
+},
+ {
+    "id": "frost_crystal_to_glass_refining",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "frost_crystal",
+            "amount": 40
+        }
+    ],
+    "output": [
+        {
+            "id": "glass",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "heat_capacitor_poly_fibre_to_circuit_board",
     "type": "craft",
     "machine": "craft",

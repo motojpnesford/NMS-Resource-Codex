@@ -1,5 +1,10 @@
 [
    {
+    "id": "heat_capacitor",
+    "name": "ヒートコンデンサ",
+    "category": "craft_material"
+},
+   {
     "id": "poly_fibre",
     "name": "ポリファイバー",
     "category": "craft_material"

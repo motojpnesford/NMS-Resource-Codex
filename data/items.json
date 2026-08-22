@@ -1,5 +1,10 @@
 [
    {
+    "id": "glass",
+    "name": "ガラス",
+    "category": "craft_material"
+},
+   {
     "id": "circuit_board",
     "name": "回路基板",
     "category": "craft_material"

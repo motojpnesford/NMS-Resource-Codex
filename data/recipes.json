@@ -1,5 +1,26 @@
 [
  {
+    "id": "lubricant_glass_to_living_glass",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "lubricant",
+            "amount": 1
+        },
+        {
+            "id": "glass",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "living_glass",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "faecium_gamma_root_to_lubricant",
     "type": "craft",
     "machine": "craft",

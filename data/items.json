@@ -1,5 +1,10 @@
 [
    {
+    "id": "lubricant",
+    "name": "潤滑剤",
+    "category": "craft_material"
+},
+   {
     "id": "glass",
     "name": "ガラス",
     "category": "craft_material"

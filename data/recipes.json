@@ -1,5 +1,26 @@
 [
  {
+    "id": "faecium_gamma_root_to_lubricant",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "faecium",
+            "amount": 50
+        },
+        {
+            "id": "gamma_root",
+            "amount": 400
+        }
+    ],
+    "output": [
+        {
+            "id": "lubricant",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "frost_crystal_to_glass",
     "type": "craft",
     "machine": "craft",

@@ -1,5 +1,10 @@
 [
    {
+    "id": "living_glass",
+    "name": "生けるガラス",
+    "category": "craft_material"
+},
+   {
     "id": "lubricant",
     "name": "潤滑剤",
     "category": "craft_material"

@@ -1,5 +1,26 @@
 [
  {
+    "id": "mordite_fungal_mould_to_acid",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "mordite",
+            "amount": 25
+        },
+        {
+            "id": "fungal_mould",
+            "amount": 600
+        }
+    ],
+    "output": [
+        {
+            "id": "acid",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "cactus_flesh_to_unstable_gel",
     "type": "craft",
     "machine": "craft",

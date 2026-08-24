@@ -1,5 +1,22 @@
 [
  {
+    "id": "cactus_flesh_to_unstable_gel",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "cactus_flesh",
+            "amount": 200
+        }
+    ],
+    "output": [
+        {
+            "id": "unstable_gel",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "lubricant_glass_to_living_glass",
     "type": "craft",
     "machine": "craft",

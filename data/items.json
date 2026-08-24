@@ -1,5 +1,10 @@
 [
    {
+    "id": "liquid_explosive",
+    "name": "液体爆薬",
+    "category": "craft_material"
+},
+   {
     "id": "acid",
     "name": "酸",
     "category": "craft_material"

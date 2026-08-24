@@ -1,5 +1,10 @@
 [
    {
+    "id": "aronium",
+    "name": "アロニウム",
+    "category": "craft_material"
+},
+   {
     "id": "liquid_explosive",
     "name": "液体爆薬",
     "category": "craft_material"

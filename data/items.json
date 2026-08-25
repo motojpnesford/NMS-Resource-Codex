@@ -1,5 +1,10 @@
 [
    {
+    "id": "semiconductor",
+    "name": "半導体",
+    "category": "craft_material"
+},
+   {
     "id": "nitrogen_salt",
     "name": "窒素塩",
     "category": "craft_material"

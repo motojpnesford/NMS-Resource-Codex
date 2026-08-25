@@ -1,5 +1,126 @@
 [
  {
+    "id": "sulphurine_condensed_carbon_to_thermic_condensate",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 250
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "thermic_condensate",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "sulphurine_carbon_chlorine_to_thermic_condensate",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 100
+        },
+        {
+            "id": "carbon",
+            "amount": 20
+        },
+        {
+            "id": "chlorine",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "thermic_condensate",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "sulphurine_carbon_salt_to_thermic_condensate",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 100
+        },
+        {
+            "id": "carbon",
+            "amount": 20
+        },
+        {
+            "id": "salt",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "thermic_condensate",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "sulphurine_condensed_carbon_chlorine_to_thermic_condensate",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 100
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 10
+        },
+        {
+            "id": "chlorine",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "thermic_condensate",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "sulphurine_condensed_carbon_salt_to_thermic_condensate",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "sulphurine",
+            "amount": 100
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 10
+        },
+        {
+            "id": "salt",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "thermic_condensate",
+            "amount": 1
+        }
+    ]
+}
+ {
     "id": "dirty_bronze_herox_lemmium_to_geodesite",
     "type": "craft",
     "machine": "craft",

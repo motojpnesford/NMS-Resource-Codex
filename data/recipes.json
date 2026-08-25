@@ -1,5 +1,243 @@
 [
  {
+    "id": "dioxite_ionised_cobalt_to_grantine",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 50
+        },
+        {
+            "id": "ionised_cobalt",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dioxite_tritium_cobalt_to_grantine",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 30
+        },
+        {
+            "id": "tritium",
+            "amount": 20
+        },
+        {
+            "id": "cobalt",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dioxite_tritium_ionised_cobalt_to_grantine",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 30
+        },
+        {
+            "id": "tritium",
+            "amount": 20
+        },
+        {
+            "id": "ionised_cobalt",
+            "amount": 30
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dioxite_silver_cobalt_to_grantine",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 30
+        },
+        {
+            "id": "silver",
+            "amount": 20
+        },
+        {
+            "id": "cobalt",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dioxite_silver_ionised_cobalt_to_grantine",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 30
+        },
+        {
+            "id": "silver",
+            "amount": 20
+        },
+        {
+            "id": "ionised_cobalt",
+            "amount": 30
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dioxite_gold_cobalt_to_grantine",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 30
+        },
+        {
+            "id": "gold",
+            "amount": 10
+        },
+        {
+            "id": "cobalt",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dioxite_gold_ionised_cobalt_to_grantine",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 30
+        },
+        {
+            "id": "gold",
+            "amount": 10
+        },
+        {
+            "id": "ionised_cobalt",
+            "amount": 30
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dioxite_platinum_cobalt_to_grantine",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 30
+        },
+        {
+            "id": "platinum",
+            "amount": 5
+        },
+        {
+            "id": "cobalt",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dioxite_platinum_ionised_cobalt_to_grantine",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dioxite",
+            "amount": 30
+        },
+        {
+            "id": "platinum",
+            "amount": 5
+        },
+        {
+            "id": "ionised_cobalt",
+            "amount": 30
+        }
+    ],
+    "output": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "grantine_to_gold",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "gold",
+            "amount": 125
+        }
+    ]
+},
+ {
     "id": "phosphorus_ionised_cobalt_to_magno_gold",
     "type": "craft",
     "machine": "craft",

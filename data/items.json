@@ -1,5 +1,10 @@
 [
    {
+    "id": "geodesite",
+    "name": "ジオデサイト",
+    "category": "craft_material"
+},
+   {
     "id": "iridesite",
     "name": "イリデサイト",
     "category": "craft_material"

@@ -1,5 +1,47 @@
 [
  {
+    "id": "aronium_magno_gold_grantine_to_iridesite",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "aronium",
+            "amount": 1
+        },
+        {
+            "id": "magno_gold",
+            "amount": 1
+        },
+        {
+            "id": "grantine",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "iridesite",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "iridesite_to_platinum",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "iridesite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "platinum",
+            "amount": 250
+        }
+    ]
+},
+ {
     "id": "uranium_pure_ferrite_to_lemmium",
     "type": "craft",
     "machine": "craft",

@@ -1,5 +1,26 @@
 [
  {
+    "id": "enriched_carbon_semiconductor_to_superconductor",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "enriched_carbon",
+            "amount": 1
+        },
+        {
+            "id": "semiconductor",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "superconductor",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "thermic_condensate_nitrogen_salt_to_semiconductor",
     "type": "craft",
     "machine": "craft",

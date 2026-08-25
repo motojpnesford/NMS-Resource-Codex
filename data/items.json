@@ -1,5 +1,10 @@
 [
    {
+    "id": "grantine",
+    "name": "グランティン",
+    "category": "craft_material"
+},
+   {
     "id": "magno_gold",
     "name": "マグノゴールド",
     "category": "craft_material"

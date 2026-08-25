@@ -1,5 +1,10 @@
 [
    {
+    "id": "iridesite",
+    "name": "イリデサイト",
+    "category": "craft_material"
+},
+   {
     "id": "lemmium",
     "name": "レミミウム",
     "category": "craft_material"

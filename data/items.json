@@ -1,5 +1,10 @@
 [
    {
+    "id": "thermic_condensate",
+    "name": "熱コンデンセート",
+    "category": "craft_material"
+},
+   {
     "id": "geodesite",
     "name": "ジオデサイト",
     "category": "craft_material"

@@ -1,5 +1,243 @@
 [
  {
+    "id": "uranium_pure_ferrite_to_lemmium",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 50
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 100
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "uranium_tritium_ferrite_dust_to_lemmium",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 30
+        },
+        {
+            "id": "tritium",
+            "amount": 20
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "uranium_tritium_pure_ferrite_to_lemmium",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 30
+        },
+        {
+            "id": "tritium",
+            "amount": 20
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "uranium_silver_ferrite_dust_to_lemmium",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 30
+        },
+        {
+            "id": "silver",
+            "amount": 20
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "uranium_silver_pure_ferrite_to_lemmium",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 30
+        },
+        {
+            "id": "silver",
+            "amount": 20
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "uranium_gold_ferrite_dust_to_lemmium",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 30
+        },
+        {
+            "id": "gold",
+            "amount": 10
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "uranium_gold_pure_ferrite_to_lemmium",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 30
+        },
+        {
+            "id": "gold",
+            "amount": 10
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "uranium_platinum_ferrite_dust_to_lemmium",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 30
+        },
+        {
+            "id": "platinum",
+            "amount": 5
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "uranium_platinum_pure_ferrite_to_lemmium",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "uranium",
+            "amount": 30
+        },
+        {
+            "id": "platinum",
+            "amount": 5
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "lemmium_to_gold",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "lemmium",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "gold",
+            "amount": 125
+        }
+    ]
+},
+ {
     "id": "ammonia_ionised_cobalt_to_herox",
     "type": "craft",
     "machine": "craft",

@@ -1,5 +1,10 @@
 [
    {
+    "id": "dirty_bronze",
+    "name": "くすんだ青銅",
+    "category": "craft_material"
+},
+   {
     "id": "grantine",
     "name": "グランティン",
     "category": "craft_material"

@@ -1,5 +1,10 @@
 [
    {
+    "id": "magno_gold",
+    "name": "マグノゴールド",
+    "category": "craft_material"
+},
+   {
     "id": "aronium",
     "name": "アロニウム",
     "category": "craft_material"

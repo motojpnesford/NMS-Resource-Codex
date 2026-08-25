@@ -1,5 +1,243 @@
 [
  {
+    "id": "pyrite_pure_ferrite_to_dirty_bronze",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 50
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 100
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "pyrite_tritium_ferrite_dust_to_dirty_bronze",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 30
+        },
+        {
+            "id": "tritium",
+            "amount": 20
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "pyrite_tritium_pure_ferrite_to_dirty_bronze",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 30
+        },
+        {
+            "id": "tritium",
+            "amount": 20
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "pyrite_silver_ferrite_dust_to_dirty_bronze",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 30
+        },
+        {
+            "id": "silver",
+            "amount": 20
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "pyrite_silver_pure_ferrite_to_dirty_bronze",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 30
+        },
+        {
+            "id": "silver",
+            "amount": 20
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "pyrite_gold_ferrite_dust_to_dirty_bronze",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 30
+        },
+        {
+            "id": "gold",
+            "amount": 10
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "pyrite_gold_pure_ferrite_to_dirty_bronze",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 30
+        },
+        {
+            "id": "gold",
+            "amount": 10
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "pyrite_platinum_ferrite_dust_to_dirty_bronze",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 30
+        },
+        {
+            "id": "platinum",
+            "amount": 5
+        },
+        {
+            "id": "ferrite_dust",
+            "amount": 120
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "pyrite_platinum_pure_ferrite_to_dirty_bronze",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "pyrite",
+            "amount": 30
+        },
+        {
+            "id": "platinum",
+            "amount": 5
+        },
+        {
+            "id": "pure_ferrite",
+            "amount": 60
+        }
+    ],
+    "output": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "dirty_bronze_to_silver",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "dirty_bronze",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "silver",
+            "amount": 250
+        }
+    ]
+},
+ {
     "id": "dioxite_ionised_cobalt_to_grantine",
     "type": "craft",
     "machine": "craft",

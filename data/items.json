@@ -1,5 +1,10 @@
 [
    {
+    "id": "nitrogen_salt",
+    "name": "窒素塩",
+    "category": "craft_material"
+},
+   {
     "id": "thermic_condensate",
     "name": "熱コンデンセート",
     "category": "craft_material"

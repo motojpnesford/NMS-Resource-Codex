@@ -1,5 +1,126 @@
 [
  {
+    "id": "nitrogen_condensed_carbon_to_nitrogen_salt",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 250
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 50
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen_salt",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "nitrogen_carbon_chlorine_to_nitrogen_salt",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 100
+        },
+        {
+            "id": "carbon",
+            "amount": 20
+        },
+        {
+            "id": "chlorine",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen_salt",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "nitrogen_carbon_salt_to_nitrogen_salt",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 100
+        },
+        {
+            "id": "carbon",
+            "amount": 20
+        },
+        {
+            "id": "salt",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen_salt",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "nitrogen_condensed_carbon_chlorine_to_nitrogen_salt",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 100
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 10
+        },
+        {
+            "id": "chlorine",
+            "amount": 5
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen_salt",
+            "amount": 1
+        }
+    ]
+},
+{
+    "id": "nitrogen_condensed_carbon_salt_to_nitrogen_salt",
+    "type": "refine",
+    "machine": "精製機",
+    "input": [
+        {
+            "id": "nitrogen",
+            "amount": 100
+        },
+        {
+            "id": "condensed_carbon",
+            "amount": 10
+        },
+        {
+            "id": "salt",
+            "amount": 10
+        }
+    ],
+    "output": [
+        {
+            "id": "nitrogen_salt",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "radon_condensed_carbon_to_enriched_carbon",
     "type": "craft",
     "machine": "craft",

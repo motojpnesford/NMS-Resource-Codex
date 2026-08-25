@@ -1,5 +1,10 @@
 [
    {
+    "id": "herox",
+    "name": "ヒロックス",
+    "category": "craft_material"
+},
+   {
     "id": "dirty_bronze",
     "name": "くすんだ青銅",
     "category": "craft_material"

@@ -1,5 +1,26 @@
 [
  {
+    "id": "thermic_condensate_nitrogen_salt_to_semiconductor",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "thermic_condensate",
+            "amount": 1
+        },
+        {
+            "id": "nitrogen_salt",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "semiconductor",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "nitrogen_condensed_carbon_to_nitrogen_salt",
     "type": "craft",
     "machine": "craft",

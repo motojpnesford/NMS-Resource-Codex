@@ -1,5 +1,26 @@
 [
  {
+    "id": "liquid_explosive_fusion_accelerant_to_portable_reactor",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "liquid_explosive",
+            "amount": 1
+        },
+        {
+            "id": "fusion_accelerant",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "portable_reactor",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "living_glass_cryo_pump_to_cryogenic_chamber",
     "type": "craft",
     "machine": "craft",

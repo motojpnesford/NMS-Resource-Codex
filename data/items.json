@@ -1,5 +1,10 @@
 [
    {
+    "id": "quantum_processor",
+    "name": "量子プロセッサ",
+    "category": "craft_material"
+},
+   {
     "id": "fusion_accelerant",
     "name": "融合加速装置",
     "category": "craft_material"

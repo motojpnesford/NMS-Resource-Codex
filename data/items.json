@@ -1,5 +1,10 @@
 [
    {
+    "id": "hot_ice",
+    "name": "ホットアイス",
+    "category": "craft_material"
+},
+   {
     "id": "superconductor",
     "name": "超伝導体",
     "category": "craft_material"

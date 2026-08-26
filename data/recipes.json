@@ -1,5 +1,30 @@
 [
  {
+    "id": "portable_reactor_quantum_processor_geodesite_to_fusion_ignitor",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "portable_reactor",
+            "amount": 1
+        },
+        {
+            "id": "quantum_processor",
+            "amount": 1
+        },
+        {
+            "id": "geodesite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "fusion_ignitor",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "liquid_explosive_fusion_accelerant_to_portable_reactor",
     "type": "craft",
     "machine": "craft",

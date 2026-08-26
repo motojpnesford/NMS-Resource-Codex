@@ -1,5 +1,10 @@
 [
    {
+    "id": "cryo_pump",
+    "name": "極低温ポンプ",
+    "category": "craft_material"
+},
+   {
     "id": "hot_ice",
     "name": "ホットアイス",
     "category": "craft_material"

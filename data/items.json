@@ -1,5 +1,10 @@
 [
    {
+    "id": "fusion_ignitor",
+    "name": "融合点火装置",
+    "category": "craft_material"
+},
+   {
     "id": "portable_reactor",
     "name": "携帯原子炉",
     "category": "craft_material"

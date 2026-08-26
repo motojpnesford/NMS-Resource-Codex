@@ -1,5 +1,10 @@
 [
    {
+    "id": "portable_reactor",
+    "name": "携帯原子炉",
+    "category": "craft_material"
+},
+   {
     "id": "cryogenic_chamber",
     "name": "極低温チャンバー",
     "category": "craft_material"

@@ -1,5 +1,10 @@
 [
    {
+    "id": "organic_catalyst",
+    "name": "有機触媒",
+    "category": "craft_material"
+},
+   {
     "id": "cryo_pump",
     "name": "極低温ポンプ",
     "category": "craft_material"

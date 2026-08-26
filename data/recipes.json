@@ -1,5 +1,26 @@
 [
  {
+    "id": "hot_ice_thermic_condensate_to_cryo_pump",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "hot_ice",
+            "amount": 1
+        },
+        {
+            "id": "thermic_condensate",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "cryo_pump",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "enriched_carbon_nitrogen_salt_to_hot_ice",
     "type": "craft",
     "machine": "craft",

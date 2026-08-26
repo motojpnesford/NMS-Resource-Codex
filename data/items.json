@@ -1,5 +1,10 @@
 [
    {
+    "id": "fusion_accelerant",
+    "name": "融合加速装置",
+    "category": "craft_material"
+},
+   {
     "id": "organic_catalyst",
     "name": "有機触媒",
     "category": "craft_material"

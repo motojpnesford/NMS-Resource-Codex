@@ -1,5 +1,26 @@
 [
  {
+    "id": "thermic_condensate_enriched_carbon_to_organic_catalyst",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "thermic_condensate",
+            "amount": 1
+        },
+        {
+            "id": "enriched_carbon",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "organic_catalyst",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "hot_ice_thermic_condensate_to_cryo_pump",
     "type": "craft",
     "machine": "craft",

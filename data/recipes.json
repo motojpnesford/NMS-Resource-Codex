@@ -1,5 +1,26 @@
 [
  {
+    "id": "living_glass_cryo_pump_to_cryogenic_chamber",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "living_glass",
+            "amount": 1
+        },
+        {
+            "id": "cryo_pump",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "cryogenic_chamber",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "circuit_board_superconductor_to_quantum_processor",
     "type": "craft",
     "machine": "craft",

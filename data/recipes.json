@@ -1,5 +1,30 @@
 [
  {
+    "id": "quantum_processor_cryogenic_chamber_iridesite_to_stasis_device",
+    "type": "craft",
+    "machine": "craft",
+    "input": [
+        {
+            "id": "quantum_processor",
+            "amount": 1
+        },
+        {
+            "id": "cryogenic_chamber",
+            "amount": 1
+        },
+        {
+            "id": "iridesite",
+            "amount": 1
+        }
+    ],
+    "output": [
+        {
+            "id": "stasis_device",
+            "amount": 1
+        }
+    ]
+},
+ {
     "id": "portable_reactor_quantum_processor_geodesite_to_fusion_ignitor",
     "type": "craft",
     "machine": "craft",

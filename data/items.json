@@ -1,5 +1,10 @@
 [
    {
+    "id": "stasis_device",
+    "name": "ステイシスデバイス",
+    "category": "craft_material"
+},
+   {
     "id": "fusion_ignitor",
     "name": "融合点火装置",
     "category": "craft_material"
